@@ -93,11 +93,11 @@ console.log(stats);
 
 #### <ins>**Params**</ins>:
 
-moveList - string (The string provided by [Standard.Game()](#game)
+moveList - string (The string provided by [Standard.Game()](#gamegameid-type)
 
 #### <ins>**Description:**</ins>
 
-Decodes the moveList provided by [Standard.Game()](#game)
+Decodes the moveList provided by [Standard.Game()](#gamegameid-type)
 
 [See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/DecodeMoves.json)
 
@@ -135,13 +135,13 @@ console.log(moves);
 ### Game(gameId, type)
 #### <ins>**Params**</ins>:
 
-gameId - string/int (The ID provided by [Standard.Games()](#games))
+gameId - string/int (The ID provided by [Standard.Games()](#gamesusername-live))
 
 type - string (Can be one of [Standard.GAMES](#standard-games))
 
 #### <ins>**Description:**</ins>
 
-Gets information on a game from [Standard.Games()](#games)
+Gets information on a game from [Standard.Games()](#gamesusername-live)
 
 [See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/Game.json)
 
@@ -416,6 +416,14 @@ const { Variants } =  require("chesscom");
 })()
 ```
 
+
+
+## Constants
+**Standard.GAMES:**
+- LIVE - A live game
+- COMPUTER - A computer game
+- BOT - Alias for computer
+- DAILY - A daily game
 
 # Credits
 Coded by [ProfessorFish](https://discord.gg/u9gFdnu)
