@@ -265,3 +265,47 @@ Standard.Search('some-username').then(users => {
 	*/
 })
 ```
+---
+<a  name="search"></a>
+
+### Stats(username)
+#### <ins>**Params**</ins>:
+username - string (The Chess.com username)
+#### <ins>**Description:**</ins>
+Gets the specified user's standard chess statistics.
+[See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/Stats.json)
+
+#### <ins> **Usage:** </ins>
+
+```js
+const { Standard } =  require("chesscom");  
+
+Standard.Stats('some-username').then(stats => {
+	console.log(stats);
+	/*
+		{
+			"stats": [
+				{
+					"key": "rapid",
+					"stats": {
+						"rating": 2822,
+						"highest_rating": 2927,
+						"highest_rating_date": "2022-02-26T11:08:34-08:00",
+						"rating_time_change_days": 30,
+						"rating_time_change_value": -17,
+						"total_game_count": 710,
+						"total_win_count": 435,
+						"total_loss_count": 65,
+						"total_draw_count": 210,
+						"avg_opponent_rating": 2655.84,
+						"highest_opponent_rating": 2890,
+						...
+					},
+				},
+				...
+			],
+			...
+		}
+	*/
+})
+```
