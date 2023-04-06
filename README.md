@@ -292,19 +292,19 @@ Standard.Stats('some-username').then(stats => {
 		{
 			"stats": [
 				{
-					"key": "rapid",
+					"key",
 					"stats": {
-						"rating": 2822,
-						"highest_rating": 2927,
-						"highest_rating_date": "2022-02-26T11:08:34-08:00",
-						"rating_time_change_days": 30,
-						"rating_time_change_value": -17,
-						"total_game_count": 710,
-						"total_win_count": 435,
-						"total_loss_count": 65,
-						"total_draw_count": 210,
-						"avg_opponent_rating": 2655.84,
-						"highest_opponent_rating": 2890,
+						"rating",
+						"highest_rating",
+						"highest_rating_date",
+						"rating_time_change_days",
+						"rating_time_change_value",
+						"total_game_count",
+						"total_win_count",
+						"total_loss_count",
+						"total_draw_count",
+						"avg_opponent_rating",
+						"highest_opponent_rating",
 						...
 					},
 				},
