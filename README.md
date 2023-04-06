@@ -164,7 +164,7 @@ Standard.Games('some-user').then(async  games  => {
 					"plyCount",
 					"startTime",
 					"endTime",
-					"colorOfWinner"
+					"colorOfWinner",
 					...
 				},
 			"players": {
@@ -178,20 +178,52 @@ Standard.Games('some-user').then(async  games  => {
 ---
 <a  name="games"></a>
 
-### Games(username)
+### Games(username, live)
 #### <ins>**Params**</ins>:
-username- string (The Chess.com username)
+username - string (The Chess.com username)
+live - boolean (Whether to look for user's live games. [Can be used to get a user's status])
 #### <ins>**Description:**</ins>
 Gets a list of recent games played by user.
 [See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/Games.json)
-
+[See Returns - Live Games](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/Games_Live.json)
 
 #### <ins> **Usage:** </ins>
 
 ```js
 const { Standard } =  require("chesscom");  
 
-Standard.Games('some-user').then(async  games  => {
+Standard.Games('some-user').then(games  => {
 	console.log(games);
+	/*
+		[
+			{
+				"id",
+				"fen",
+				"daysPerTurn",
+				"moves",
+				"user1Rating",
+				"user2Rating",
+				"user1Result",
+				"user2Result",
+				...
+			},
+			...
+		]
+	*/
+})
+
+Standard.Games('some-user').then(liveGames => {
+	console.log(liveGames);
+	/*
+		{
+			"id",
+			"status",
+			"statusAt",
+			"updatedAt",
+			"activity",
+			"activityContext",
+			...
+	}
+	*/
 })
 ```
