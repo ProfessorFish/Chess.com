@@ -1,0 +1,21 @@
+{
+    "name": "chess.com",
+    "version": "0.0.0",
+    "description": "A nodeJS package that utilises the internal API for chess.com, allowing for live-updating information.",
+    "main": "index.js",
+    "keywords": ["chess", "chess.com", "chessJS", "chess-API"],
+    "author": "ProfessorFish",
+    "license": "MIT",
+    "dependencies": {
+      "@types/node": "^18.0.6",
+      "abort-controller": "^3.0.0",
+      "dotenv": "^16.0.3",
+      "node-fetch": "^2.6.9",
+      "puppeteer": "^19.7.4",
+      "puppeteer-extra": "^3.3.6",
+      "puppeteer-extra-plugin-stealth": "^2.11.2",
+      "user-agents": "^1.0.1317",
+      "websocket": "^1.0.34"
+    }
+  }
+  
