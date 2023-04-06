@@ -137,7 +137,7 @@ console.log(moves);
 
 gameId - string/int (The ID provided by [Standard.Games()](#gamesusername-live))
 
-type - string (Can be one of [Standard.GAMES](#standard-games))
+type - string (Can be one of [Standard.GAMES](#constants))
 
 #### <ins>**Description:**</ins>
 
