@@ -10,7 +10,7 @@ module.exports = async function GetSessionID() {
     
     const browser = await puppeteer.launch(
         {
-            headless: false
+            headless: true
         }
     );
 
