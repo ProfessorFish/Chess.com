@@ -98,6 +98,7 @@ moveList - string (The string provided by [Standard.Game()](#game)
 #### <ins>**Description:**</ins>
 
 Decodes the moveList provided by [Standard.Game()](#game)
+
 [See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/DecodeMoves.json)
 
 #### <ins> **Usage:** </ins>
@@ -141,6 +142,7 @@ type - string (Can be one of [Standard.GAMES](#standard-games))
 #### <ins>**Description:**</ins>
 
 Gets information on a game from [Standard.Games()](#games)
+
 [See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/Game.json)
 
 
@@ -184,7 +186,9 @@ username - string (The Chess.com username)
 live - boolean (Whether to look for user's live games. [Can be used to get a user's status])
 #### <ins>**Description:**</ins>
 Gets a list of recent games played by user.
+
 [See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/Games.json)
+
 [See Returns - Live Games](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/Games_Live.json)
 
 #### <ins> **Usage:** </ins>
@@ -236,6 +240,7 @@ Standard.Games('some-user').then(liveGames => {
 username - string (The Chess.com username)
 #### <ins>**Description:**</ins>
 Gets a list of users that match the username query.
+
 [See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/Search.json)
 
 #### <ins> **Usage:** </ins>
@@ -273,6 +278,7 @@ Standard.Search('some-username').then(users => {
 username - string (The Chess.com username)
 #### <ins>**Description:**</ins>
 Gets the specified user's standard chess statistics.
+
 [See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/Stats.json)
 
 #### <ins> **Usage:** </ins>
