@@ -1,0 +1,209 @@
+{
+    "_id": "5f6b47c33a39890044040dd7",
+    "isAdmin": false,
+    "isSuperUser": false,
+    "isCustomGamesAdmin": false,
+    "celebrity": true,
+    "reportban": "1970-01-01T00:00:00.000Z",
+    "banReason": "",
+    "rulesAcknowledged": true,
+    "numGamesTotal": 222,
+    "numGamesRated": 176,
+    "numGamesCasual": 46,
+    "numGamesSolo": 2,
+    "numGamesFfa": 62,
+    "numGamesTeams": 49,
+    "numAborts": 3,
+    "latestPlayed": "2023-03-01T17:33:53.406Z",
+    "chessTitle": "GM",
+    "isPremium": true,
+    "isGold": false,
+    "isDiamond": true,
+    "isPlatinum": true,
+    "isStaff": false,
+    "isEnabled": true,
+    "activationRequired": false,
+    "lastAborts": ["2020-09-23T13:18:35.800Z", "2020-06-25T19:32:30.208Z", "2020-06-24T19:59:16.302Z"],
+    "lastSeen": "2023-03-04T16:24:25.829Z",
+    "createdAt": "1970-01-01T00:00:00.000Z",
+    "isBot": "",
+    "uid": 15448422,
+    "username": "Hikaru",
+    "avatarUrl": "https://images.chesscomfiles.com/uploads/v1/user/15448422.90503d66.200x200o.f323efa57fd0.jpeg",
+    "usernameIndexed": "hikaru",
+    "__v": 1,
+    "compositeRatings": {
+        "rt:4player:rapid": {
+            "rating": 1950.9255323424895,
+            "deviation": 64.68924860244529,
+            "volatility": 0.059919268655740314,
+            "lastPlayed": ["2020-09-03T13:18:47.199Z", "2020-07-30T22:21:38.401Z", "2020-07-23T19:45:16.867Z", "2020-07-09T17:15:29.498Z", "2020-07-09T16:53:03.579Z", "2020-07-09T16:41:37.552Z", "2020-07-09T03:21:40.362Z", "2020-07-09T02:51:30.627Z", "2020-07-08T19:48:06.022Z", "2020-07-08T04:38:53.938Z"],
+            "numGames": 31
+        },
+        "rt:4player:blitz": {
+            "rating": 1734.4797825913827,
+            "deviation": 74.83786642921311,
+            "volatility": 0.05998613073134174,
+            "lastPlayed": ["2020-07-23T20:03:07.469Z", "2020-07-08T21:21:09.309Z", "2020-05-28T22:32:31.545Z", "2020-05-28T22:05:53.679Z", "2020-03-30T02:39:00.938Z", "1970-01-01T00:00:00.000Z", "1970-01-01T00:00:00.000Z", "1970-01-01T00:00:00.000Z"],
+            "numGames": 2
+        },
+        "rt:4player:rapid:teams": {
+            "rating": 1763.288920607047,
+            "deviation": 67.36517096377128,
+            "volatility": 0.05999366188918104,
+            "lastPlayed": ["2020-12-07T19:13:15.956Z", "2020-12-07T19:02:22.829Z", "2020-12-07T18:41:35.904Z", "2020-09-07T17:33:50.914Z", "2020-09-07T17:21:10.706Z", "2020-09-07T17:15:40.668Z", "2020-09-07T16:59:44.023Z", "2020-09-07T16:46:30.826Z", "2020-09-02T17:42:33.020Z", "2020-09-02T17:21:23.373Z"],
+            "numGames": 42
+        },
+        "rt:4player:bullet:teams": {
+            "rating": 1401.279359647944,
+            "deviation": 137.48963311901767,
+            "volatility": 0.05999854541376514,
+            "lastPlayed": ["2020-07-23T20:57:24.146Z", "2020-07-23T20:50:12.390Z"],
+            "numGames": 2
+        },
+        "rt:4player_giveaway:blitz": {
+            "rating": 1461.4199199369637,
+            "deviation": 147.47944767326175,
+            "volatility": 0.0599975602104808,
+            "lastPlayed": ["2020-07-23T20:49:00.242Z"],
+            "numGames": 1
+        },
+        "rt:duck_chess:blitz": {
+            "rating": 1707.1435148797198,
+            "deviation": 73.37072090483323,
+            "volatility": 0.0599831887507874,
+            "numGames": 25,
+            "lastPlayed": ["2022-11-25T17:48:07.957Z", "2022-11-25T17:34:14.791Z", "2022-11-25T17:16:54.534Z"]
+        },
+        "blitz": {
+            "rating": 1642.6711497218723,
+            "deviation": 64.03236408062186,
+            "volatility": 0.059952901359131214,
+            "numGames": 61,
+            "lastPlayed": ["2023-03-01T17:33:53.364Z", "2023-03-01T17:27:29.200Z", "2023-03-01T17:25:13.754Z"]
+        },
+        "2pc": {
+            "rating": 1813.3242793566892,
+            "deviation": 69.90252766769105,
+            "volatility": 0.05996279577757305,
+            "numGames": 62,
+            "lastPlayed": ["2023-03-01T17:33:53.364Z", "2023-03-01T17:27:29.200Z", "2023-03-01T17:25:13.754Z"]
+        },
+        "duckChess": {
+            "rating": 1917.1386973386711,
+            "deviation": 78.03747468301968,
+            "volatility": 0.05998809952652661,
+            "numGames": 26,
+            "lastPlayed": ["2022-11-25T17:48:07.957Z", "2022-11-25T17:34:14.792Z", "2022-11-25T17:16:54.534Z"]
+        },
+        "positional": {
+            "rating": 1801.0898808000547,
+            "deviation": 74.67958127169189,
+            "volatility": 0.05998466412590559,
+            "numGames": 26,
+            "lastPlayed": ["2022-11-25T17:48:07.957Z", "2022-11-25T17:34:14.792Z", "2022-11-25T17:16:54.534Z"]
+        },
+        "rt:duck_chess:rapid": {
+            "rating": 1532.6526795138989,
+            "deviation": 114.7594308692695,
+            "volatility": 0.06000205173450748,
+            "numGames": 1,
+            "lastPlayed": ["2022-11-08T20:09:59.018Z"]
+        },
+        "rapid": {
+            "rating": 1514.7496061251718,
+            "deviation": 114.34269474212857,
+            "volatility": 0.06000101334732831,
+            "numGames": 1,
+            "lastPlayed": ["2022-11-08T20:09:59.018Z"]
+        },
+        "rt:4player:blitz:teams": {
+            "rating": 1653.6,
+            "deviation": 95,
+            "volatility": 0.06,
+            "numGames": 5,
+            "lastPlayed": ["2020-06-25T19:59:31.498Z", "2020-06-25T19:51:27.858Z", "2020-06-25T19:45:27.137Z"]
+        },
+        "rt:capture_anything:blitz": {
+            "rating": 1532.7,
+            "deviation": 95,
+            "volatility": 0.06,
+            "numGames": 1,
+            "lastPlayed": ["2020-09-23T14:58:39.606Z"]
+        },
+        "rt:chaturanga:blitz": {
+            "rating": 1603.3,
+            "deviation": 95,
+            "volatility": 0.06,
+            "numGames": 8,
+            "lastPlayed": ["2020-09-25T14:21:13.770Z", "2020-09-25T14:16:14.650Z", "2020-09-23T16:13:55.341Z"]
+        },
+        "rt:fogofwar:blitz": {
+            "rating": 1499.4,
+            "deviation": 95,
+            "volatility": 0.06,
+            "numGames": 12,
+            "lastPlayed": ["2020-10-08T17:12:57.156Z", "2020-10-08T17:07:00.107Z", "2020-10-08T16:59:46.068Z"]
+        },
+        "rt:sideways_pawns:blitz": {
+            "rating": 1530.5,
+            "deviation": 95,
+            "volatility": 0.06,
+            "numGames": 1,
+            "lastPlayed": ["2020-09-23T13:45:58.020Z"]
+        },
+        "rt:torpedo:blitz": {
+            "rating": 1550.6,
+            "deviation": 95,
+            "volatility": 0.06,
+            "numGames": 5,
+            "lastPlayed": ["2020-09-23T15:49:36.431Z", "2020-09-23T15:46:11.572Z", "2020-09-23T14:51:28.740Z"]
+        },
+        "rt:atomic:blitz": {
+            "rating": 1624.7539995105133,
+            "deviation": 84.7459730969027,
+            "volatility": 0.059991885005255284,
+            "numGames": 12,
+            "lastPlayed": ["2023-02-27T16:34:58.624Z", "2023-02-27T16:27:09.538Z", "2023-02-27T16:26:10.792Z"]
+        },
+        "atomic": {
+            "rating": 1545.5772018765447,
+            "deviation": 82.90815093722553,
+            "volatility": 0.05999441516862496,
+            "numGames": 12,
+            "lastPlayed": ["2023-02-27T16:34:58.624Z", "2023-02-27T16:27:09.538Z", "2023-02-27T16:26:10.792Z"]
+        },
+        "tactical": {
+            "rating": 1604.5431234784376,
+            "deviation": 66.8751644445884,
+            "volatility": 0.05998407239395994,
+            "numGames": 36,
+            "lastPlayed": ["2023-03-01T17:33:53.364Z", "2023-03-01T17:27:29.200Z", "2023-03-01T17:25:13.754Z"]
+        },
+        "rt:crazyhouse:blitz": {
+            "rating": 1743.0475047144103,
+            "deviation": 76.33165065504059,
+            "volatility": 0.0599876965678978,
+            "numGames": 24,
+            "lastPlayed": ["2023-03-01T17:33:53.364Z", "2023-03-01T17:27:29.200Z", "2023-03-01T17:25:13.754Z"]
+        },
+        "crazyhouse": {
+            "rating": 1615.071500450527,
+            "deviation": 72.87986655367165,
+            "volatility": 0.05999150963772906,
+            "numGames": 24,
+            "lastPlayed": ["2023-03-01T17:33:53.364Z", "2023-03-01T17:27:29.200Z", "2023-03-01T17:25:13.754Z"]
+        }
+    },
+    "myTemplates": [],
+    "customTitle": "",
+    "fairPlayAcknowledged": "2022-11-25T15:34:24.806Z",
+    "streamUrl": "http://www.twitch.tv/gmhikaru",
+    "streaming": "",
+    "playerId": 15448422,
+    "isNativeBot": false,
+    "isOnline": false,
+    "isPlaying": null,
+    "observingGame": null,
+    "serverLag": 7
+}
