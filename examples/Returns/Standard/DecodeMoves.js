@@ -2,6 +2,7 @@
 let game = await Standard.Game('74459085433')
 
 let moves = Standard.DecodeMoves(game.game.moveList)
+console.log(moves)
 
 //Returns:
 [
