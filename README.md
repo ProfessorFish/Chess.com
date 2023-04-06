@@ -227,3 +227,41 @@ Standard.Games('some-user').then(liveGames => {
 	*/
 })
 ```
+
+---
+<a  name="search"></a>
+
+### Search(username, live)
+#### <ins>**Params**</ins>:
+username - string (The Chess.com username)
+#### <ins>**Description:**</ins>
+Gets a list of users that match the username query.
+[See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/Search.json)
+
+#### <ins> **Usage:** </ins>
+
+```js
+const { Standard } =  require("chesscom");  
+
+Standard.Search('some-username').then(users => {
+	console.log(users);
+	/*
+		[
+			{
+				"uuid",
+				"name",
+				"fair_play_vetted_time",
+				"id",
+				"country_id",
+				"avatar_url",
+				"member_url",
+				"last_login_date",
+				"location",
+				"username",
+				...
+			},
+			...
+		]
+	*/
+})
+```
