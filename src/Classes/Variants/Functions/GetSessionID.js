@@ -19,9 +19,9 @@ module.exports = async function GetSessionID() {
 
     await page.goto('https://www.chess.com/login');
 
-    await page.type('#username', process.env.EMAIL);
+    await page.type('#username', this.EMAIL);
 
-    await page.type("#password", process.env.PASSWORD);
+    await page.type("#password", this.PASSWORD);
 
     await Promise.all([
         page.waitForNavigation(),
