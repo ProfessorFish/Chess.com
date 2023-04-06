@@ -386,8 +386,8 @@ const { Variants } =  require("chesscom");
 
 (async () =>{
 	//Initialise the variant manager
-	let VariantManager = new Variants()
-	await VariantManager.Init('some_email', 'some_password', 'some_username');
+	let VariantManager = new Variants('some_email', 'some_password', 'some_username')
+	await VariantManager.Init();
 })()
 ```
 
