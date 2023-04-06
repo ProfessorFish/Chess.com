@@ -1,5 +1,4 @@
 //Code:
-let gameId = games[0].id;
 let game = await Standard.Game('74459085433')
 console.log(game)
 
