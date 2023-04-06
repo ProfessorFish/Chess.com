@@ -46,9 +46,9 @@ Standard.Search("Hikaru").then(async users =>{
 
 ### DecodeMoves(moveList)
 #### <ins>**Params**</ins>:
-moveList - string (The string provided by [Standard.Game()](#Game(gameId, type)))
+moveList - string (The string provided by [Standard.Game()](#game(gameid,-type)))
 #### <ins>**Description:**</ins>
-Decodes the moveList provided by [Standard.Game()](#GameGame(gameId, type))
+Decodes the moveList provided by [Standard.Game()](#game(gameid,-type))
 #### <ins> **Usage:** </ins>
 ```js
 const { Standard } = require("chesscom");
