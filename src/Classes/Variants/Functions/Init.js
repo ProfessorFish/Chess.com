@@ -7,7 +7,7 @@ module.exports = function Init() {
     let client = this.client;
     let tis = this;
 
-    let userID = (await Standard.User(process.env.username)).userId;
+    let userID = (await Standard.User(this.USERNAME)).userId;
 
     client.connect("wss://variants.gcp-prod.chess.com/")
     client.on('connectFailed', function(error) {

@@ -51,7 +51,7 @@ A nodeJS package that utilises the internal API for chess.com, allowing for verb
 
 ### Bug fixes:
 
-- [ ] Fix unable to view some live games bug
+- [ ] Fix unable to view some live games issue
 
   
 
@@ -271,7 +271,7 @@ Standard.Search('some-username').then(users => {
 })
 ```
 ---
-<a  name="search"></a>
+<a  name="stats"></a>
 
 ### Stats(username)
 #### <ins>**Params**</ins>:
@@ -350,3 +350,74 @@ Standard.User('some-username').then(user => {
 	*/
 })
 ```
+
+## Variants:
+### An introduction.
+
+Variants are different to the Standard section of this package. This is for two reasons:
+1. They are completely different types of chess
+2. There are technical differences between accessing each type of data
+
+Rest assured, accessing variants data can be done. 
+However, it requires user authentication (email + password + username). 
+This is due to the fact that chess.com Variants make use of web sockets to load data, whereas the Standard versions make use of simple HTTP Get requests.
+
+It is relatively simple to get variants working, I just would like to point out why the package requires your chess.com email, username and password.
+In fact, I recommend you to go through the package and check that your information is not stored or transferred in any way before providing it with any personal information.
+The only time your data is used is [here](https://github.com/ProfessorFish/Chess.com/blob/main/src/Classes/Variants/Functions/GetSessionID.js), to log on and get your PHPSESSID cookie.
+
+### Initialisation:
+Here is some boilerplate code for initialising the variant side of the package:
+```js
+const { Variants } =  require("chesscom");
+
+(async () =>{
+	//Initialise the variant manager
+	let VariantManager = new Variants()
+	await VariantManager.Init();
+})()
+```
+
+There are two ways to provide the package with your email, username and password:
+1. (Recommended) Make use of environment variables and set them as EMAIL, USERNAME and PASSWORD respectively.
+2. Pass them to the `VariantManager.Init()` function directly:
+```js
+const { Variants } =  require("chesscom");
+
+(async () =>{
+	//Initialise the variant manager
+	let VariantManager = new Variants()
+	await VariantManager.Init('some_email', 'some_password', 'some_username');
+})()
+```
+
+This may take some time to perform as it uses puppeteer, although it will only need to be performed once, or every few hours depending on how often the variant manager is used (It is all handled internally, so do not worry about re-initialising your Variant manager).
+
+### Stats(username)
+*Not to be confused with [Standard.Stats()](#stats)*
+#### <ins>**Params**</ins>:
+username - string (The Chess.com username)
+#### <ins>**Description:**</ins>
+Gets the specified user's variant stats.
+
+[See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Variants/Stats.json)
+
+#### <ins> **Usage:** </ins>
+
+```js
+const { Variants } =  require("chesscom");
+
+(async () =>{
+	//Initialise the variant manager
+	let VariantManager = new Variants()
+	await VariantManager.Init('some_email', 'some_password', 'some_username');//Or use environment variables
+
+	let stats = await VariantManager.Stats('Hikaru')
+})()
+```
+
+
+# Credits
+Coded by [ProfessorFish](https://discord.gg/u9gFdnu)
+
+If you find any bugs or issues or just need help, then click on the link above and join the Discord server where you will be able to ask me for help.
