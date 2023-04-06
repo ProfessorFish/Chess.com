@@ -70,8 +70,8 @@ Standard.Games('some-user').then(async games => {
 ```
 
 ---
-{#game}
-### Game(gameId, type) 
+
+### Game(gameId, type)
 #### <ins>**Params**</ins>:
 gameId - string/int (The ID provided by [Standard.Games()](#Games))
 type - string (Can be one of [Standard.GAMES](#Standard.GAMES))
