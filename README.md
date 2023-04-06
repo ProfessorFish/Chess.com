@@ -46,7 +46,7 @@ Standard.Search("Hikaru").then(async users =>{
 
 ### DecodeMoves(moveList)
 #### <ins>**Params**</ins>:
-moveList - string (The string provided by [Standard.Game()](#game(gameid,-type))
+moveList - string (The string provided by [Standard.Game()](#game)
 #### <ins>**Description:**</ins>
 Decodes the moveList provided by [Standard.Game()](###game(gameid,-type))
 #### <ins> **Usage:** </ins>
@@ -71,7 +71,7 @@ Standard.Games('some-user').then(async games => {
 
 ---
 
-### Game(gameId, type)
+### Game(gameId, type) {#game}
 #### <ins>**Params**</ins>:
 gameId - string/int (The ID provided by [Standard.Games()](#Games))
 type - string (Can be one of [Standard.GAMES](#Standard.GAMES))
