@@ -315,3 +315,38 @@ Standard.Stats('some-username').then(stats => {
 	*/
 })
 ```
+
+---
+<a  name="user"></a>
+
+### User(username)
+#### <ins>**Params**</ins>:
+username - string (The Chess.com username)
+#### <ins>**Description:**</ins>
+Gets the specified user's profile information.
+
+[See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/User.json)
+
+#### <ins> **Usage:** </ins>
+
+```js
+const { Standard } =  require("chesscom");  
+
+Standard.User('some-username').then(user => {
+	console.log(user);
+	/*
+		{
+			"avatarUrl",
+			"bestRating",
+			"bestRatingType",
+			"chessTitle",
+			"isEnabled",
+			"isStaff",
+			"isGuest",
+			"countryId",
+			"membership",
+			...
+		}
+	*/
+})
+```
