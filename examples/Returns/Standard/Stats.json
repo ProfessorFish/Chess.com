@@ -1,0 +1,296 @@
+{
+    "stats": [{
+        "key": "rapid",
+        "stats": {
+            "rating": 2822,
+            "highest_rating": 2927,
+            "highest_rating_date": "2022-02-26T11:08:34-08:00",
+            "rating_time_change_days": 30,
+            "rating_time_change_value": -17,
+            "total_game_count": 710,
+            "total_win_count": 435,
+            "total_loss_count": 65,
+            "total_draw_count": 210,
+            "avg_opponent_rating": 2655.84,
+            "highest_opponent_rating": 2890,
+            "best_win_opponent": {
+                "country": {
+                    "id": 112,
+                    "code": "PL",
+                    "name": "Poland",
+                    "iso3": "POL",
+                    "currency_code": "PLN",
+                    "phone_code": 48
+                },
+                "id": 47485766,
+                "create_date": "2018-06-29T08:43:41-07:00",
+                "username": "Polish_fighter3000",
+                "first_name": "Jan-Krzysztof",
+                "last_name": "Duda",
+                "country_id": 112,
+                "location": "Kraków",
+                "last_login_date": "2023-04-04T07:22:54-07:00",
+                "points": 0,
+                "is_enabled": true,
+                "chess_title": "GM",
+                "membership_level": 50
+            },
+            "best_win_opponent_id": 47485766
+        },
+        "gameCount": 710,
+        "lastPlayed": true,
+        "lastDate": "2023-04-06T10:12:58-07:00"
+    }, {
+        "key": "lightning",
+        "stats": {
+            "rating": 3217,
+            "highest_rating": 3332,
+            "highest_rating_date": "2020-03-31T14:32:11-07:00",
+            "rating_time_change_days": 30,
+            "rating_time_change_value": -6,
+            "total_game_count": 32081,
+            "total_win_count": 24741,
+            "total_loss_count": 4162,
+            "total_draw_count": 3178,
+            "avg_opponent_rating": 2782.49,
+            "highest_opponent_rating": 3261,
+            "best_win_opponent": {
+                "country": {
+                    "id": 104,
+                    "code": "NO",
+                    "name": "Norway",
+                    "iso3": "NOR",
+                    "currency_code": "NOK",
+                    "phone_code": 47
+                },
+                "id": 3889224,
+                "create_date": "2010-08-26T14:05:20-07:00",
+                "username": "MagnusCarlsen",
+                "first_name": "Magnus",
+                "last_name": "Carlsen",
+                "country_id": 104,
+                "location": "Norway",
+                "last_login_date": "2023-04-06T08:15:01-07:00",
+                "points": 0,
+                "is_enabled": true,
+                "chess_title": "GM",
+                "membership_level": 50
+            },
+            "best_win_opponent_id": 3889224
+        },
+        "gameCount": 32081,
+        "lastPlayed": false,
+        "lastDate": "2023-03-31T20:16:27-07:00"
+    }, {
+        "key": "bullet",
+        "stats": {
+            "rating": 3360,
+            "highest_rating": 3570,
+            "highest_rating_date": "2020-11-11T15:07:27-08:00",
+            "rating_time_change_days": 30,
+            "rating_time_change_value": 41,
+            "total_game_count": 12504,
+            "total_win_count": 10446,
+            "total_loss_count": 1448,
+            "total_draw_count": 610,
+            "avg_opponent_rating": 2798.74,
+            "highest_opponent_rating": 3449,
+            "best_win_opponent": {
+                "country": {
+                    "id": 2,
+                    "code": "US",
+                    "name": "United States",
+                    "iso3": "USA",
+                    "currency_code": "USD",
+                    "phone_code": 1
+                },
+                "id": 8344034,
+                "create_date": "2012-07-27T14:37:01-07:00",
+                "username": "penguingm1",
+                "first_name": "Andrew",
+                "last_name": "Tang",
+                "country_id": 2,
+                "location": "Princeton, NJ",
+                "last_login_date": "2023-04-05T20:44:41-07:00",
+                "points": 1862,
+                "is_enabled": true,
+                "chess_title": "GM",
+                "membership_level": 50
+            },
+            "best_win_opponent_id": 8344034
+        },
+        "gameCount": 12504,
+        "lastPlayed": false,
+        "lastDate": "2023-03-31T12:12:47-07:00"
+    }, {
+        "key": "tactics_challenge",
+        "stats": {
+            "highest_score": 62,
+            "highest_type_code": "five_minutes",
+            "avg_score": 51.3,
+            "attempt_count": 3057,
+            "puzzle_attempts_total": 113696,
+            "modes": {
+                "five_minutes": 62,
+                "three_minutes": 55,
+                "three_strikes": 123
+            }
+        },
+        "gameCount": 3057,
+        "lastPlayed": false
+    }, {
+        "key": "chess",
+        "stats": {
+            "rating": 2239,
+            "highest_rating": 2464,
+            "highest_rating_date": "2014-04-10T06:32:20-07:00",
+            "rating_time_change_days": 365,
+            "rating_time_change_value": 0,
+            "total_game_count": 88,
+            "total_win_count": 73,
+            "total_loss_count": 11,
+            "total_draw_count": 4,
+            "avg_opponent_rating": 2002,
+            "highest_opponent_rating": 2528,
+            "best_win_opponent": {
+                "country": {
+                    "id": 2,
+                    "code": "US",
+                    "name": "United States",
+                    "iso3": "USA",
+                    "currency_code": "USD",
+                    "phone_code": 1
+                },
+                "id": 5337696,
+                "create_date": "2011-06-25T15:01:41-07:00",
+                "username": "KingWhacker85",
+                "first_name": "Daniel",
+                "last_name": "Gay",
+                "country_id": 2,
+                "location": "",
+                "last_login_date": "2017-08-09T23:16:37-07:00",
+                "points": 3,
+                "is_enabled": false,
+                "chess_title": "NM",
+                "membership_level": 10
+            },
+            "best_win_opponent_id": 5337696,
+            "timeout_percent": 0,
+            "timeout_days": 90,
+            "total_in_progress_count": 8,
+            "avg_move_time": 32755,
+            "last_date": "2023-01-10T08:22:38-08:00"
+        },
+        "gameCount": 88,
+        "lastPlayed": false,
+        "lastDate": "2023-01-10T08:22:38-08:00"
+    }, {
+        "key": "tactics",
+        "stats": {
+            "rating": 3424,
+            "highest_rating": 3427,
+            "highest_rating_date": 1667403710,
+            "rating_time_change_days": 365,
+            "rating_time_change_value": 165,
+            "highest_rating_info": {
+                "timestamp": 1667403710,
+                "rating": 3427
+            },
+            "lowest_rating_info": {
+                "timestamp": 1389043648,
+                "rating": 695
+            },
+            "total_seconds": 80441,
+            "lowest_rating": 695,
+            "lowest_rating_date": 1389043648,
+            "attempt_count": 397,
+            "passed_count": 202,
+            "failed_count": 195,
+            "last_date": "2022-11-02T08:46:33-07:00"
+        },
+        "gameCount": 397,
+        "lastPlayed": false,
+        "lastDate": "2022-11-02T08:46:33-07:00"
+    }, {
+        "key": "chess960",
+        "stats": {
+            "rating": 1231,
+            "highest_rating": 1489,
+            "highest_rating_date": "2014-04-09T12:50:07-07:00",
+            "rating_time_change_days": 365,
+            "rating_time_change_value": 0,
+            "total_game_count": 3,
+            "total_win_count": 1,
+            "total_loss_count": 2,
+            "total_draw_count": 0,
+            "avg_opponent_rating": 1231,
+            "highest_opponent_rating": 1410,
+            "best_win_opponent": {
+                "country": {
+                    "id": 40,
+                    "code": "CZ",
+                    "name": "Czech Republic",
+                    "iso3": "CZE",
+                    "currency_code": "CZK",
+                    "phone_code": 420
+                },
+                "id": 3896261,
+                "create_date": "2010-08-28T03:27:49-07:00",
+                "username": "Ceress",
+                "first_name": "Filip",
+                "last_name": "Stonavsky",
+                "country_id": 40,
+                "location": "",
+                "last_login_date": "2023-03-23T00:52:24-07:00",
+                "points": 1971,
+                "is_enabled": true,
+                "membership_level": 10
+            },
+            "best_win_opponent_id": 3896261,
+            "timeout_percent": 0,
+            "timeout_days": 90,
+            "total_in_progress_count": 8,
+            "avg_move_time": 32755,
+            "last_date": "2015-10-09T23:23:34-07:00"
+        },
+        "gameCount": 3,
+        "lastPlayed": false,
+        "lastDate": "2015-10-09T23:23:34-07:00"
+    }, {
+        "key": "liveChess960",
+        "stats": {
+            "rating": 2954,
+            "rd": 74.6715
+        },
+        "gameCount": 704,
+        "lastDate": "2023-03-27T10:59:25-07:00"
+    }, {
+        "key": "threecheck",
+        "stats": {
+            "rating": 2461,
+            "rd": 107.168
+        },
+        "lastDate": "2022-09-09T19:58:00-07:00"
+    }, {
+        "key": "kingofthehill",
+        "stats": {
+            "rating": 2363,
+            "rd": 171.753
+        },
+        "lastDate": "2023-03-31T13:49:00-07:00"
+    }],
+    "lastType": "liveStandard",
+    "versus": {
+        "total": 0
+    },
+    "ratingOnlyStats": ["threecheck", "kingofthehill", "crazyhouse", "bughouse", "liveChess960"],
+    "officialRating": {
+        "rating": 2814,
+        "ratingType": "FIDE"
+    },
+    "lessonLevel": {
+        "icon": "king-fill",
+        "name": "Mastery",
+        "progress": 17
+    }
+}
