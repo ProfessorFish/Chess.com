@@ -13,14 +13,15 @@ A nodeJS package that utilises the internal API for chess.com, allowing for verb
 ## Benefits:
 - Supports variants
 - Information is updated real-time with the chess.com servers (as opposed to every x time frame with the public API)
-[decode](#Standard)
+
 ## TODO:
 ### Additions:
 
- - [ ] Add fetching leader-boards
+ - [ ]  Add fetching leader-boards
  - [ ]  Add get user's friends
  - [ ]  Add support for clubs
  - [ ]  Add support for leagues
+ - [ ] Add game fetching for variants
 
 ### Bug fixes:
 - [ ] Fix unable to view some live games bug
@@ -42,7 +43,66 @@ Standard.Search("Hikaru").then(async users =>{
 # Documentation:
 
 ## Standard:
-### DecodeMoves(moveList)
-#### <ins>Params</ins>:
-**moveList** - string
 
+### DecodeMoves(moveList)
+#### <ins>**Params**</ins>:
+moveList - string (The string provided by [Standard.Game()](#Game(gameId, type)))
+#### <ins>**Description:**</ins>
+Decodes the moveList provided by [Standard.Game()](#GameGame(gameId, type))
+#### <ins> **Usage:** </ins>
+```js
+const { Standard } = require("chesscom");
+
+Standard.Games('some-user').then(async games => {
+	let chosenGame = games[0];
+
+	let game = await Standard.Game(chosenGame.id);
+	
+	let moves = Standard.DecodeMoves(game.game.moveList);
+	console.log(moves);
+	/*
+	[
+		{ "from": "..", "to": ".."},
+		...
+	]
+	*/
+})
+```
+
+---
+
+### Game(gameId, type)
+#### <ins>**Params**</ins>:
+gameId - string/int (The ID provided by [Standard.Games()](#Games))
+type - string (Can be one of [Standard.GAMES](#Standard.GAMES))
+#### <ins>**Description:**</ins>
+Gets information on a game [Standard.Game()](#Game)
+#### <ins> **Usage:** </ins>
+```js
+const { Standard } = require("chesscom");
+
+Standard.Games('some-user').then(async games => {
+	let chosenGame = games[0];
+
+	let game = await Standard.Game(chosenGame.id);
+	console.log(game);
+	/*
+	{
+		{
+			"game":
+				{
+					"id",
+					"initialSetup",
+					"plyCount",
+					"startTime",
+					"endTime",
+					"colorOfWinner"
+					...
+				},
+			"players": {
+				...
+			}
+	}
+	*/
+})
+```
