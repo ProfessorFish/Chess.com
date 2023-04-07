@@ -794,9 +794,9 @@ const { Variants } = require("chess.com");
 
 //Initialise the variant manager
 
-let  VariantManager = new  Variants('some_email', 'some_password', 'some_username')
+let  VariantManager = new  Variants('some_email', 'some_password', 'some_username')//Or use environment variables
 
-await  VariantManager.Init();//Or use environment variables
+await  VariantManager.Init();
 
   
 
