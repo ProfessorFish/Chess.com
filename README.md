@@ -736,7 +736,7 @@ There are two ways to provide the package with your email, username and password
 
 1. (Recommended) Make use of environment variables and set them as EMAIL, USERNAME and PASSWORD respectively.
 
-2. Pass them to the `VariantManager.Init()` function directly:
+2. Pass them to the VariantManager constructor directly:
 
 ```js
 
