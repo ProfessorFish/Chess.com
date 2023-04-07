@@ -716,18 +716,12 @@ Here is some boilerplate code for initialising the variant side of the package:
 
 const { Variants } = require("chess.com");
 
-  
-
 (async () =>{
-
 //Initialise the variant manager
-
 let  VariantManager = new  Variants()
 
 await  VariantManager.Init();
-
 })()
-
 ```
 
   
@@ -741,19 +735,13 @@ There are two ways to provide the package with your email, username and password
 ```js
 
 const { Variants } = require("chess.com");
-
-  
-
+ 
 (async () =>{
-
 //Initialise the variant manager
-
 let  VariantManager = new  Variants('some_email', 'some_password', 'some_username')
 
 await  VariantManager.Init();
-
 })()
-
 ```
 
   
@@ -791,19 +779,13 @@ const { Variants } = require("chess.com");
   
 
 (async () =>{
-
 //Initialise the variant manager
-
 let  VariantManager = new  Variants('some_email', 'some_password', 'some_username')//Or use environment variables
 
 await  VariantManager.Init();
 
-  
-
 let  stats = await  VariantManager.Stats('Hikaru')
-
 })()
-
 ```
 
   
