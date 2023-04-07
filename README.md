@@ -104,43 +104,17 @@ A nodeJS package that utilises the internal API for chess.com, allowing for verb
   
 
 ```js
-
-  
-
 const { Standard } = require("chess.com");
 
-  
-
 Standard.Search("Hikaru").then(async  users  =>{
+	let  hikaru = users[0];
 
-  
+	let  profile = await  Standard.User(hikaru.username);
+	console.log(profile);
 
-let  hikaru = users[0];
-
-  
-
-let  profile = await  Standard.User(hikaru.username);
-
-  
-
-console.log(profile);
-
-  
-
-  
-
-let  stats = await  Standard.Stats(hikaru.username);
-
-  
-
-console.log(stats);
-
-  
-
+	let  stats = await  Standard.Stats(hikaru.username);
+	console.log(stats);
 })
-
-  
-
 ```
 
   
@@ -190,49 +164,16 @@ Decodes the moveList provided by [Standard.Game()](#gamegameid-type)
   
 
 ```js
-
 const { Standard } = require("chess.com");
 
-  
-
-  
-
 Standard.Games('some-user').then(async  games  => {
-
-  
-
-let  chosenGame = games[0];
-
-  
-
-  
-
-let  game = await  Standard.Game(chosenGame.id);
-
-  
-
-let  moves = Standard.DecodeMoves(game.game.moveList);
-
-  
-
-console.log(moves);
-
-  
-
-/*
-
-[
-
-{ "from": "..", "to": ".."},
-
-...
-
-]
-
-*/
-
+	let  chosenGame = games[0];
+	
+	let  game = await  Standard.Game(chosenGame.id);
+	
+	let  moves = Standard.DecodeMoves(game.game.moveList);
+	console.log(moves);
 })
-
 ```
 
   
@@ -275,57 +216,14 @@ Gets information on a game from [Standard.Games()](#gamesusername-live)
   
 
 ```js
-
 const { Standard } = require("chess.com");
 
-  
-
 Standard.Games('some-user').then(async  games  => {
+	let  chosenGame = games[0];
 
-let  chosenGame = games[0];
-
-let  game = await  Standard.Game(chosenGame.id);
-
-console.log(game);
-
-  
-
-/*
-
-{
-
-{
-
-"game": {
-
-"id",
-
-"initialSetup",
-
-"plyCount",
-
-"startTime",
-
-"endTime",
-
-"colorOfWinner",
-
-...
-
-},
-
-"players": {
-
-...
-
-}
-
-}
-
-*/
-
+	let  game = await  Standard.Game(chosenGame.id);
+	console.log(game);
 })
-
 ```
 
   
@@ -363,77 +261,14 @@ Gets a list of recent games played by user.
   
 
 ```js
-
 const { Standard } = require("chess.com");
 
-  
-
 Standard.Games('some-user').then(games  => {
-
-console.log(games);
-
-/*
-
-[
-
-{
-
-"id",
-
-"fen",
-
-"daysPerTurn",
-
-"moves",
-
-"user1Rating",
-
-"user2Rating",
-
-"user1Result",
-
-"user2Result",
-
-...
-
-},
-
-...
-
-]
-
-*/
-
+	console.log(games);
 })
 
-  
-
-Standard.Games('some-user').then(liveGames  => {
-
-console.log(liveGames);
-
-/*
-
-{
-
-"id",
-
-"status",
-
-"statusAt",
-
-"updatedAt",
-
-"activity",
-
-"activityContext",
-
-...
-
-}
-
-*/
-
+Standard.Games('some-user', true).then(liveGames  => {
+	console.log(liveGames);
 })
 
 ```
@@ -467,53 +302,11 @@ Gets a list of users that match the username query.
   
 
 ```js
-
 const { Standard } = require("chess.com");
 
-  
-
 Standard.Search('some-username').then(users  => {
-
-console.log(users);
-
-/*
-
-[
-
-{
-
-"uuid",
-
-"name",
-
-"fair_play_vetted_time",
-
-"id",
-
-"country_id",
-
-"avatar_url",
-
-"member_url",
-
-"last_login_date",
-
-"location",
-
-"username",
-
-...
-
-},
-
-...
-
-]
-
-*/
-
+	console.log(users);
 })
-
 ```
 
 ---
@@ -543,67 +336,11 @@ Gets the specified user's standard chess statistics.
   
 
 ```js
-
 const { Standard } = require("chess.com");
 
-  
-
 Standard.Stats('some-username').then(stats  => {
-
-console.log(stats);
-
-/*
-
-{
-
-"stats": [
-
-{
-
-"key",
-
-"stats": {
-
-"rating",
-
-"highest_rating",
-
-"highest_rating_date",
-
-"rating_time_change_days",
-
-"rating_time_change_value",
-
-"total_game_count",
-
-"total_win_count",
-
-"total_loss_count",
-
-"total_draw_count",
-
-"avg_opponent_rating",
-
-"highest_opponent_rating",
-
-...
-
-},
-
-},
-
-...
-
-],
-
-...
-
-}
-
-*/
-
+	console.log(stats);
 })
-
 ```
 
   
@@ -635,45 +372,11 @@ Gets the specified user's profile information.
   
 
 ```js
-
 const { Standard } = require("chess.com");
 
-  
-
 Standard.User('some-username').then(user  => {
-
-console.log(user);
-
-/*
-
-{
-
-"avatarUrl",
-
-"bestRating",
-
-"bestRatingType",
-
-"chessTitle",
-
-"isEnabled",
-
-"isStaff",
-
-"isGuest",
-
-"countryId",
-
-"membership",
-
-...
-
-}
-
-*/
-
+	console.log(user);
 })
-
 ```
 
   
@@ -713,14 +416,13 @@ The only time your data is used is [here](https://github.com/ProfessorFish/Chess
 Here is some boilerplate code for initialising the variant side of the package:
 
 ```js
-
 const { Variants } = require("chess.com");
 
 (async () =>{
-//Initialise the variant manager
-let  VariantManager = new  Variants()
+	//Initialise the variant manager
+	let  VariantManager = new  Variants()
 
-await  VariantManager.Init();
+	await  VariantManager.Init();
 })()
 ```
 
@@ -733,9 +435,8 @@ There are two ways to provide the package with your email, username and password
 2. Pass them to the VariantManager constructor directly:
 
 ```js
-
 const { Variants } = require("chess.com");
- 
+
 (async () =>{
 //Initialise the variant manager
 let  VariantManager = new  Variants('some_email', 'some_password', 'some_username')
@@ -773,7 +474,6 @@ Gets the specified user's variant stats.
   
 
 ```js
-
 const { Variants } = require("chess.com");
 
   
@@ -785,6 +485,7 @@ let  VariantManager = new  Variants('some_email', 'some_password', 'some_usernam
 await  VariantManager.Init();
 
 let  stats = await  VariantManager.Stats('Hikaru')
+console.log(stats);
 })()
 ```
 
