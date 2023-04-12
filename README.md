@@ -109,12 +109,12 @@ const { Chess } = require("inner-chess");
 let chess = new Chess();
 
 chess.Search("some-user").then(async  users  =>{
-	let  hikaru = users[0];
+	let user = users[0];
 
-	let  profile = await  chess.User(hikaru.username);
+	let profile = await  chess.User(user.username);
 	console.log(profile);
 
-	let  stats = await  chess.Stats(hikaru.username);
+	let stats = await  chess.Stats(user.username);
 	console.log(stats);
 })
 ```
