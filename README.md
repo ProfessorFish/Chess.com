@@ -504,6 +504,10 @@ const { Chess } = require("inner-chess");
 
 username - string (The Chess.com username)
 
+pages - integer (Number of pages of friends to get, defaults to Infinity)
+
+avatarSize - integer (Size of returned friends' avatars, defaults to 64)
+
 #### <ins>**Description:**</ins>
 
 Gets the specified user's friends.
