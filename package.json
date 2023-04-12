@@ -1,6 +1,6 @@
 {
   "name": "inner-chess",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A nodeJS package that utilises the internal API for chess.com, allowing for live-updating information.",
   "main": "index.js",
   "keywords": [
