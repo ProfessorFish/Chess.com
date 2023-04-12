@@ -1,7 +1,7 @@
 
   
 
-# Chess.com
+# Inner-chess
 
   
 
@@ -71,7 +71,7 @@ A nodeJS package that utilises the internal API for chess.com, allowing for verb
 
   
 
-- [ ] Add get user's friends
+- [x] ~~Add get user's friends~~
 
   
 
@@ -104,15 +104,17 @@ A nodeJS package that utilises the internal API for chess.com, allowing for verb
   
 
 ```js
-const { Standard } = require("chess.com");
+const { Chess } = require("inner-chess");
 
-Standard.Search("Hikaru").then(async  users  =>{
+let chess = new Chess();
+
+chess.Search("some-user").then(async  users  =>{
 	let  hikaru = users[0];
 
-	let  profile = await  Standard.User(hikaru.username);
+	let  profile = await  chess.User(hikaru.username);
 	console.log(profile);
 
-	let  stats = await  Standard.Stats(hikaru.username);
+	let  stats = await  chess.Stats(hikaru.username);
 	console.log(stats);
 })
 ```
@@ -143,7 +145,7 @@ Standard.Search("Hikaru").then(async  users  =>{
 
   
 
-moveList - string (The string provided by [Standard.Game()](#gamegameid-type)
+moveList - string (The string provided by [Standard.Game()](#gamegameid-type))
 
   
 
@@ -164,14 +166,16 @@ Decodes the moveList provided by [Standard.Game()](#gamegameid-type)
   
 
 ```js
-const { Standard } = require("chess.com");
+const { Chess } = require("inner-chess");
 
-Standard.Games('some-user').then(async  games  => {
+let chess = new Chess();
+
+chess.Games('some-user').then(async  games  => {
 	let  chosenGame = games[0];
 	
-	let  game = await  Standard.Game(chosenGame.id);
+	let  game = await  chess.Game(chosenGame.id);
 	
-	let  moves = Standard.DecodeMoves(game.game.moveList);
+	let  moves = chess.DecodeMoves(game.game.moveList);
 	console.log(moves);
 })
 ```
@@ -216,12 +220,14 @@ Gets information on a game from [Standard.Games()](#gamesusername-live)
   
 
 ```js
-const { Standard } = require("chess.com");
+const { Chess } = require("inner-chess");
 
-Standard.Games('some-user').then(async  games  => {
+let chess = new Chess();
+
+chess.Games('some-user').then(async  games  => {
 	let  chosenGame = games[0];
 
-	let  game = await  Standard.Game(chosenGame.id);
+	let  game = await  chess.Game(chosenGame.id);
 	console.log(game);
 })
 ```
@@ -261,13 +267,15 @@ Gets a list of recent games played by user.
   
 
 ```js
-const { Standard } = require("chess.com");
+const { Chess } = require("inner-chess");
 
-Standard.Games('some-user').then(games  => {
+let chess = new Chess();
+
+chess.Games('some-user').then(games  => {
 	console.log(games);
 })
 
-Standard.Games('some-user', true).then(liveGames  => {
+chess.Games('some-user', true).then(liveGames  => {
 	console.log(liveGames);
 })
 
@@ -302,9 +310,11 @@ Gets a list of users that match the username query.
   
 
 ```js
-const { Standard } = require("chess.com");
+const { Chess } = require("inner-chess");
 
-Standard.Search('some-username').then(users  => {
+let chess = new Chess();
+
+chess.Search('some-username').then(users  => {
 	console.log(users);
 })
 ```
@@ -336,9 +346,11 @@ Gets the specified user's standard chess statistics.
   
 
 ```js
-const { Standard } = require("chess.com");
+const { Chess } = require("inner-chess");
 
-Standard.Stats('some-username').then(stats  => {
+let chess = new Chess();
+
+chess.Stats('some-user').then(stats  => {
 	console.log(stats);
 })
 ```
@@ -372,9 +384,11 @@ Gets the specified user's profile information.
   
 
 ```js
-const { Standard } = require("chess.com");
+const { Chess } = require("inner-chess");
 
-Standard.User('some-username').then(user  => {
+let chess = new Chess();
+
+chess.User('some-user').then(user  => {
 	console.log(user);
 })
 ```
@@ -416,13 +430,13 @@ The only time your data is used is [here](https://github.com/ProfessorFish/Chess
 Here is some boilerplate code for initialising the variant side of the package:
 
 ```js
-const { Variants } = require("chess.com");
+const { Chess } = require("inner-chess");
 
-(async () =>{
+(async () => {
 	//Initialise the variant manager
-	let  VariantManager = new  Variants()
+	let chess = new Chess()
 
-	await  VariantManager.Init();
+	await chess.Init();
 })()
 ```
 
@@ -430,18 +444,18 @@ const { Variants } = require("chess.com");
 
 There are two ways to provide the package with your email, username and password:
 
-1. (Recommended) Make use of environment variables and set them as EMAIL, USERNAME and PASSWORD respectively.
+1. (Recommended) Make use of environment variables and set them as EMAIL, USERNAME and PASSWORD respectively. [See here](https://github.com)
 
 2. Pass them to the VariantManager constructor directly:
 
 ```js
-const { Variants } = require("chess.com");
+const { Chess } = require("inner-chess");
 
 (async () =>{
-//Initialise the variant manager
-let  VariantManager = new  Variants('some_email', 'some_password', 'some_username')
+	//Initialise the variant manager
+	let chess = new Chess('some-email', 'some-password', 'some-username');
 
-await  VariantManager.Init();
+	await VariantManager.Init();
 })()
 ```
 
@@ -451,7 +465,7 @@ This may take some time to perform as it uses puppeteer, although it will only n
 
   
 
-### Stats(username)
+### VariantStats(username)
 
 *Not to be confused with [Standard.Stats()](#stats)*
 
@@ -474,18 +488,16 @@ Gets the specified user's variant stats.
   
 
 ```js
-const { Variants } = require("chess.com");
+const { Chess } = require("inner-chess");
 
-  
+(async () => {
+	//Initialise the variant manager
+	let chess = new Chess('some-email', 'some-password', 'some-user')//Or use environment variables
 
-(async () =>{
-//Initialise the variant manager
-let  VariantManager = new  Variants('some_email', 'some_password', 'some_username')//Or use environment variables
+	await chess.Init();
 
-await  VariantManager.Init();
-
-let  stats = await  VariantManager.Stats('Hikaru')
-console.log(stats);
+	let stats = await chess.VariantStats('some-user')
+	console.log(stats);
 })()
 ```
 
