@@ -157,7 +157,7 @@ Decodes the moveList provided by [Standard.Game()](#gamegameid-type)
 
   
 
-[See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/DecodeMoves.json)
+[See Returns](https://github.com/ProfessorFish/Chess.com/tree/main/examples/Returns/Chess/DecodeMoves.json)
 
   
 
@@ -210,7 +210,7 @@ Gets information on a game from [Standard.Games()](#gamesusername-live)
 
   
 
-[See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/Game.json)
+[See Returns](https://github.com/ProfessorFish/Chess.com/tree/main/examples/Returns/Chess/Game.json)
 
   
   
@@ -254,11 +254,11 @@ Gets a list of recent games played by user.
 
   
 
-[See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/Games.json)
+[See Returns](https://github.com/ProfessorFish/Chess.com/tree/main/examples/Returns/Chess/Games.json)
 
   
 
-[See Returns - Live Games](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/Games_Live.json)
+[See Returns - Live Games](https://github.com/ProfessorFish/Chess.com/tree/main/examples/Returns/Chess/Games_Live.json)
 
   
 
@@ -301,7 +301,7 @@ Gets a list of users that match the username query.
 
   
 
-[See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/Search.json)
+[See Returns](https://github.com/ProfessorFish/Chess.com/tree/main/examples/Returns/Chess/Search.json)
 
   
 
@@ -337,7 +337,7 @@ Gets the specified user's standard chess statistics.
 
   
 
-[See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/Stats.json)
+[See Returns](https://github.com/ProfessorFish/Chess.com/tree/main/examples/Returns/Chess/Stats.json)
 
   
 
@@ -375,7 +375,7 @@ Gets the specified user's profile information.
 
   
 
-[See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Standard/User.json)
+[See Returns](https://github.com/ProfessorFish/Chess.com/tree/main/examples/Returns/Chess/User.json)
 
   
 
@@ -479,7 +479,7 @@ Gets the specified user's variant stats.
 
   
 
-[See Returns](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Returns/Variants/Stats.json)
+[See Returns](https://github.com/ProfessorFish/Chess.com/tree/main/examples/Returns/Chess/VariantStats.json)
 
   
 
