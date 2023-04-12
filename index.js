@@ -1,5 +1,4 @@
-const Variants = require("./src/Classes/Variants/main.js");
-const Standard = require("./src/Classes/Standard/main.js");
+const Chess = require("./src/Classes/Chess/main.js");
 require("dotenv").config();
 
-module.exports = { Variants, Standard }
+module.exports = { Chess }
