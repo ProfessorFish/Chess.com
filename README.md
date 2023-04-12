@@ -145,7 +145,7 @@ chess.Search("some-user").then(async  users  =>{
 
   
 
-moveList - string (The string provided by [Standard.Game()](#gamegameid-type))
+moveList - string (The string provided by [chess.Game()](#gamegameid-type))
 
   
 
@@ -153,7 +153,7 @@ moveList - string (The string provided by [Standard.Game()](#gamegameid-type))
 
   
 
-Decodes the moveList provided by [Standard.Game()](#gamegameid-type)
+Decodes the moveList provided by [chess.Game()](#gamegameid-type)
 
   
 
@@ -194,11 +194,11 @@ chess.Games('some-user').then(async  games  => {
 
   
 
-gameId - string/int (The ID provided by [Standard.Games()](#gamesusername-live))
+gameId - string/int (The ID provided by [chess.Games()](#gamesusername-live))
 
   
 
-type - string (Can be one of [Standard.GAMES](#constants))
+type - string (Can be one of [Chess.GAMES](#constants))
 
   
 
@@ -206,7 +206,7 @@ type - string (Can be one of [Standard.GAMES](#constants))
 
   
 
-Gets information on a game from [Standard.Games()](#gamesusername-live)
+Gets information on a game from [chess.Games()](#gamesusername-live)
 
   
 
@@ -464,7 +464,7 @@ This may take some time to perform as it uses puppeteer, although it will only n
 
 ### VariantStats(username)
 
-*Not to be confused with [Standard.Stats()](#stats)*
+*Not to be confused with [chess.Stats()](#stats)*
 
 #### <ins>**Params**</ins>:
 
@@ -498,13 +498,44 @@ const { Chess } = require("inner-chess");
 })()
 ```
 
+### Friends(username)
+
+#### <ins>**Params**</ins>:
+
+username - string (The Chess.com username)
+
+#### <ins>**Description:**</ins>
+
+Gets the specified user's friends.
+
+
+[See Returns](https://github.com/ProfessorFish/Chess.com/tree/main/examples/Returns/Chess/Friends.json)
+
   
+
+#### <ins> **Usage:** </ins>
+
+  
+
+```js
+const { Chess } = require("inner-chess");
+
+(async () => {
+	//Initialise the variant manager
+	let chess = new Chess('some-email', 'some-password', 'some-user')//Or use environment variables
+
+	await chess.Init();
+
+	let friends = await chess.Friends('some-user')
+	console.log(friends);
+})()
+```
   
   
 
 ## Constants
 
-**Standard.GAMES:**
+**Chess.GAMES:**
 
 - LIVE - A live game
 
