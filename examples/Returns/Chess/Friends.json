@@ -1,1 +1,26 @@
-{"friends":[{"user_id":177335679,"user_uuid":"2e0bf864-a882-11ec-9808-5b3166fb73f8","username":"Laurelinep","country_id":52,"country_name":"France","last_login_date":"1680629254","create_date":"1647803761","is_enabled":1,"avatar_url":"https://images.chesscomfiles.com/uploads/v1/user/177335679.2f77d034.64x64o.81b2ce562fc6.jpeg","best_rating":1200,"best_rating_type":"bullet","is_friend":0,"is_tracked":0,"membership_level":10,"flair_code":"nothing","is_online":false,"is_in_livechess":false,"user_can_receive_gift":true}],"friendsCount":1,"friendsPerPage":20}
+{
+    "friends": [
+      {
+        "user_id": 177335679,
+        "user_uuid": "2e0bf864-a882-11ec-9808-5b3166fb73f8",
+        "username": "Laurelinep",
+        "country_id": 52,
+        "country_name": "France",
+        "last_login_date": "1680629254",
+        "create_date": "1647803761",
+        "is_enabled": 1,
+        "avatar_url": "https://images.chesscomfiles.com/uploads/v1/user/177335679.2f77d034.64x64o.81b2ce562fc6.jpeg",
+        "best_rating": 1200,
+        "best_rating_type": "bullet",
+        "is_friend": 0,
+        "is_tracked": 0,
+        "membership_level": 10,
+        "flair_code": "nothing",
+        "is_online": false,
+        "is_in_livechess": false,
+        "user_can_receive_gift": true
+      }
+    ],
+    "friendsCount": 1,
+    "friendsPerPage": 20
+  }
