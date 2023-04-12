@@ -71,7 +71,7 @@ A nodeJS package that utilises the internal API for chess.com, allowing for verb
 
   
 
-- [x] ~~Add get user's friends~~
+- [x] ~~Add get user's friends~~ DONE
 
   
 
@@ -129,7 +129,7 @@ chess.Search("some-user").then(async  users  =>{
 
   
 
-## Standard:
+## Uncredentialed endpoints:
 
   
 
@@ -395,33 +395,28 @@ chess.User('some-user').then(user  => {
 
   
 
-## Variants:
+## Credentialed Endpoints:
 
 ### An introduction.
 
   
 
-Variants are different to the Standard section of this package. This is for two reasons:
+Credentialed endpoints are different to the first section of this package. This is for two reasons:
 
-1. They are completely different types of chess
+1. They require credentials to access the data
 
 2. There are technical differences between accessing each type of data
 
-  
 
-Rest assured, accessing variants data can be done.
+Rest assured, accessing credentialed data can be done.
 
 However, it requires user authentication (email + password + username).
 
-This is due to the fact that chess.com Variants make use of web sockets to load data, whereas the Standard versions make use of simple HTTP Get requests.
+It is relatively simple to get credentialed endpoints working.
 
-  
+But before that, I recommend you to go through the package and check that your information is not stored or transferred in any way before providing it with any personal information.
 
-It is relatively simple to get variants working, I just would like to point out why the package requires your chess.com email, username and password.
-
-In fact, I recommend you to go through the package and check that your information is not stored or transferred in any way before providing it with any personal information.
-
-The only time your data is used is [here](https://github.com/ProfessorFish/Chess.com/blob/main/src/Classes/Variants/Functions/GetSessionID.js), to log on and get your PHPSESSID cookie.
+The only time your data is used is [here](https://github.com/ProfessorFish/Chess.com/blob/main/src/Classes/Chess/Functions/GetSessionID.js), to log on and get your PHPSESSID cookie.
 
   
 
@@ -444,9 +439,9 @@ const { Chess } = require("inner-chess");
 
 There are two ways to provide the package with your email, username and password:
 
-1. (Recommended) Make use of environment variables and set them as EMAIL, USERNAME and PASSWORD respectively. [See here](https://github.com)
+1. (Recommended) Make use of environment variables and set them as EMAIL, USERNAME and PASSWORD respectively. [See here](https://github.com/ProfessorFish/Chess.com/blob/main/examples/Usage/.env)
 
-2. Pass them to the VariantManager constructor directly:
+2. Pass them to the Chess constructor directly:
 
 ```js
 const { Chess } = require("inner-chess");
@@ -455,13 +450,15 @@ const { Chess } = require("inner-chess");
 	//Initialise the variant manager
 	let chess = new Chess('some-email', 'some-password', 'some-username');
 
-	await VariantManager.Init();
+	await chess.Init();
 })()
 ```
 
   
 
 This may take some time to perform as it uses puppeteer, although it will only need to be performed once, or every few hours depending on how often the variant manager is used (It is all handled internally, so do not worry about re-initialising your Variant manager).
+
+*Optionally you do not have to run chess.Init() as if a credentialed function is ran, it will automatically initialise it. However this adds time to the function call, so it is recommended that you initialise before the package is used.*
 
   
 
