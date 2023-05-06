@@ -64,16 +64,12 @@ A nodeJS package that utilises the internal API for chess.com, allowing for verb
 ### Additions:
 
   
+- [x] ~~Add get user's friends~~ DONE
 
-  
+- [x] ~~Add get user's achievements~~ DONE
 
 - [ ] Add fetching leader-boards
 
-  
-
-- [x] ~~Add get user's friends~~ DONE
-
-  
 
 - [ ] Add support for clubs
 
@@ -178,6 +174,47 @@ chess.Games('some-user').then(async  games  => {
 	let  moves = chess.DecodeMoves(game.game.moveList);
 	console.log(moves);
 })
+```
+
+  
+
+---
+
+<a  name="achievements"></a>
+
+### Achievements(username)
+
+#### <ins>**Params**</ins>:
+
+username - string (The Chess.com username)
+
+#### <ins>**Description:**</ins>
+
+Gets a list of a user's achievements.
+
+  
+
+[See Returns](https://github.com/ProfessorFish/Chess.com/tree/main/examples/Returns/Chess/Achievements.json)
+
+  
+
+[See Returns - Live Games](https://github.com/ProfessorFish/Chess.com/tree/main/examples/Returns/Chess/Games_Live.json)
+
+  
+
+#### <ins> **Usage:** </ins>
+
+  
+
+```js
+const { Chess } = require("inner-chess");
+
+let chess = new Chess();
+
+chess.Achievements('some-user', true).then(liveGames  => {
+	console.log(liveGames);
+})
+
 ```
 
   

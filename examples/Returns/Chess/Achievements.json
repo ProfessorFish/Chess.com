@@ -1,0 +1,1691 @@
+{
+    "passport": [
+      {
+        "name": "Afghanistan",
+        "description": "You played with someone from Afghanistan!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/AF.3a947f55.png"
+      },
+      {
+        "name": "Albania",
+        "description": "You played with someone from Albania!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/AL.03ebb822.png"
+      },
+      {
+        "name": "Algeria",
+        "description": "You played with someone from Algeria!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/DZ.7c1bcb03.png"
+      },
+      {
+        "name": "American Samoa",
+        "description": "You played with someone from American Samoa!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/AS.a975b6bc.png"
+      },
+      {
+        "name": "Andorra",
+        "description": "You played with someone from Andorra!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/AD.c9b1f08c.png"
+      },
+      {
+        "name": "Antigua & Barbuda",
+        "description": "You played with someone from Antigua & Barbuda!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/AG.f59b7db0.png"
+      },
+      {
+        "name": "Argentina",
+        "description": "You played with someone from Argentina!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/AR.16c23e02.png"
+      },
+      {
+        "name": "Armenia",
+        "description": "You played with someone from Armenia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/AM.46124767.png"
+      },
+      {
+        "name": "Australia",
+        "description": "You played with someone from Australia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/AU.932664af.png"
+      },
+      {
+        "name": "Austria",
+        "description": "You played with someone from Austria!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/AT.9e5e196e.png"
+      },
+      {
+        "name": "Azerbaijan",
+        "description": "You played with someone from Azerbaijan!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/AZ.437a0b7f.png"
+      },
+      {
+        "name": "Bahamas",
+        "description": "You played with someone from Bahamas!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/BS.b0a1c11c.png"
+      },
+      {
+        "name": "Bahrain",
+        "description": "You played with someone from Bahrain!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/BH.fdd88d70.png"
+      },
+      {
+        "name": "Bangladesh",
+        "description": "You played with someone from Bangladesh!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/BD.019a6ba9.png"
+      },
+      {
+        "name": "Barbados",
+        "description": "You played with someone from Barbados!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/BB.1c02a4d4.png"
+      },
+      {
+        "name": "Basque Country",
+        "description": "You played with someone from Basque Country!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/XB.1d05880f.png"
+      },
+      {
+        "name": "Belarus",
+        "description": "You played with someone from Belarus!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/BY.50b3c3ab.png"
+      },
+      {
+        "name": "Belgium",
+        "description": "You played with someone from Belgium!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/BE.8d8ace0c.png"
+      },
+      {
+        "name": "Bermuda",
+        "description": "You played with someone from Bermuda!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/BM.c6cfb0db.png"
+      },
+      {
+        "name": "Bhutan",
+        "description": "You played with someone from Bhutan!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/BT.0c4680c0.png"
+      },
+      {
+        "name": "Bolivia",
+        "description": "You played with someone from Bolivia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/BO.560cd106.png"
+      },
+      {
+        "name": "Bosnia & Herzegovina",
+        "description": "You played with someone from Bosnia & Herzegovina!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/BA.c12e22ce.png"
+      },
+      {
+        "name": "Brazil",
+        "description": "You played with someone from Brazil!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/BR.06d2b1f9.png"
+      },
+      {
+        "name": "British Virgin Islands",
+        "description": "You played with someone from British Virgin Islands!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/VG.d9cd67e6.png"
+      },
+      {
+        "name": "Bulgaria",
+        "description": "You played with someone from Bulgaria!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/BG.bf69c33b.png"
+      },
+      {
+        "name": "Burundi",
+        "description": "You played with someone from Burundi!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/BI.19575610.png"
+      },
+      {
+        "name": "Cambodia",
+        "description": "You played with someone from Cambodia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/KH.c6a28e94.png"
+      },
+      {
+        "name": "Canada",
+        "description": "You played with someone from Canada!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/CA.a313e3b9.png"
+      },
+      {
+        "name": "Canary Islands",
+        "description": "You played with someone from Canary Islands!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/XA.e3a078af.png"
+      },
+      {
+        "name": "Catalonia",
+        "description": "You played with someone from Catalonia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/XC.57d724d8.png"
+      },
+      {
+        "name": "Chad",
+        "description": "You played with someone from Chad!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/TD.861bd24e.png"
+      },
+      {
+        "name": "Chile",
+        "description": "You played with someone from Chile!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/CL.37154319.png"
+      },
+      {
+        "name": "China",
+        "description": "You played with someone from China!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/CN.8f31efa9.png"
+      },
+      {
+        "name": "Colombia",
+        "description": "You played with someone from Colombia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/CO.c5b497ed.png"
+      },
+      {
+        "name": "Costa Rica",
+        "description": "You played with someone from Costa Rica!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/CR.30c74abf.png"
+      },
+      {
+        "name": "Croatia",
+        "description": "You played with someone from Croatia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/HR.f2321b1b.png"
+      },
+      {
+        "name": "Cuba",
+        "description": "You played with someone from Cuba!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/CU.f842d356.png"
+      },
+      {
+        "name": "Cyprus",
+        "description": "You played with someone from Cyprus!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/CY.da40b870.png"
+      },
+      {
+        "name": "Czech Republic",
+        "description": "You played with someone from Czech Republic!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/CZ.8b788ff2.png"
+      },
+      {
+        "name": "Denmark",
+        "description": "You played with someone from Denmark!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/DK.490caa12.png"
+      },
+      {
+        "name": "Djibouti",
+        "description": "You played with someone from Djibouti!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/DJ.7718cf9b.png"
+      },
+      {
+        "name": "Dominican Republic",
+        "description": "You played with someone from Dominican Republic!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/DO.96bd0dea.png"
+      },
+      {
+        "name": "Ecuador",
+        "description": "You played with someone from Ecuador!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/EC.8bfd761f.png"
+      },
+      {
+        "name": "Egypt",
+        "description": "You played with someone from Egypt!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/EG.fb7d0530.png"
+      },
+      {
+        "name": "England",
+        "description": "You played with someone from England!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/XE.481a3a84.png"
+      },
+      {
+        "name": "Estonia",
+        "description": "You played with someone from Estonia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/EE.e971d406.png"
+      },
+      {
+        "name": "Ethiopia",
+        "description": "You played with someone from Ethiopia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/ET.fc2ffe1b.png"
+      },
+      {
+        "name": "European Union",
+        "description": "You played with someone from European Union!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/EU.b8cd93ee.png"
+      },
+      {
+        "name": "Falkland Islands",
+        "description": "You played with someone from Falkland Islands!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/FK.eaa8ad3e.png"
+      },
+      {
+        "name": "Faroe Islands",
+        "description": "You played with someone from Faroe Islands!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/FO.af7b3e1b.png"
+      },
+      {
+        "name": "Fiji",
+        "description": "You played with someone from Fiji!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/FJ.9d7c371d.png"
+      },
+      {
+        "name": "Finland",
+        "description": "You played with someone from Finland!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/FI.d8f9856c.png"
+      },
+      {
+        "name": "France",
+        "description": "You played with someone from France!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/FR.4caf9974.png"
+      },
+      {
+        "name": "Galicia",
+        "description": "You played with someone from Galicia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/XG.50a629f4.png"
+      },
+      {
+        "name": "Georgia",
+        "description": "You played with someone from Georgia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/GE.9696a9a6.png"
+      },
+      {
+        "name": "Germany",
+        "description": "You played with someone from Germany!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/DE.a9336c15.png"
+      },
+      {
+        "name": "Ghana",
+        "description": "You played with someone from Ghana!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/GH.741e8d0e.png"
+      },
+      {
+        "name": "Gibraltar",
+        "description": "You played with someone from Gibraltar!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/GI.de3f5dee.png"
+      },
+      {
+        "name": "Greece",
+        "description": "You played with someone from Greece!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/GR.8b0eefe2.png"
+      },
+      {
+        "name": "Greenland",
+        "description": "You played with someone from Greenland!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/GL.765ad6ac.png"
+      },
+      {
+        "name": "Grenada",
+        "description": "You played with someone from Grenada!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/GD.27cc1c11.png"
+      },
+      {
+        "name": "Guadeloupe",
+        "description": "You played with someone from Guadeloupe!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/GP.65a6ffc2.png"
+      },
+      {
+        "name": "Guatemala",
+        "description": "You played with someone from Guatemala!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/GT.bc6563d1.png"
+      },
+      {
+        "name": "Guernsey",
+        "description": "You played with someone from Guernsey!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/GG.e9b91008.png"
+      },
+      {
+        "name": "Haiti",
+        "description": "You played with someone from Haiti!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/HT.0b80e476.png"
+      },
+      {
+        "name": "Hong Kong SAR China",
+        "description": "You played with someone from Hong Kong SAR China!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/HK.a5e16ed1.png"
+      },
+      {
+        "name": "Hungary",
+        "description": "You played with someone from Hungary!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/HU.59cc2586.png"
+      },
+      {
+        "name": "Iceland",
+        "description": "You played with someone from Iceland!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/IS.727a8704.png"
+      },
+      {
+        "name": "India",
+        "description": "You played with someone from India!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/IN.22cb062f.png"
+      },
+      {
+        "name": "Indonesia",
+        "description": "You played with someone from Indonesia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/ID.65a3d65d.png"
+      },
+      {
+        "name": "International",
+        "description": "You played with someone from International!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/XX.a5f3df6b.png"
+      },
+      {
+        "name": "Iran",
+        "description": "You played with someone from Iran!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/IR.9db64d26.png"
+      },
+      {
+        "name": "Iraq",
+        "description": "You played with someone from Iraq!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/IQ.128249b5.png"
+      },
+      {
+        "name": "Ireland",
+        "description": "You played with someone from Ireland!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/IE.cd23ba15.png"
+      },
+      {
+        "name": "Isle of Man",
+        "description": "You played with someone from Isle of Man!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/IM.393f4deb.png"
+      },
+      {
+        "name": "Israel",
+        "description": "You played with someone from Israel!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/IL.87c3a4db.png"
+      },
+      {
+        "name": "Italy",
+        "description": "You played with someone from Italy!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/IT.eef27ba2.png"
+      },
+      {
+        "name": "Jamaica",
+        "description": "You played with someone from Jamaica!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/JM.693d7c0e.png"
+      },
+      {
+        "name": "Japan",
+        "description": "You played with someone from Japan!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/JP.58e17620.png"
+      },
+      {
+        "name": "Jersey",
+        "description": "You played with someone from Jersey!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/JE.11912f04.png"
+      },
+      {
+        "name": "Jordan",
+        "description": "You played with someone from Jordan!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/JO.08487e11.png"
+      },
+      {
+        "name": "Kazakhstan",
+        "description": "You played with someone from Kazakhstan!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/KZ.102ebe69.png"
+      },
+      {
+        "name": "Kenya",
+        "description": "You played with someone from Kenya!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/KE.72104118.png"
+      },
+      {
+        "name": "Kiribati",
+        "description": "You played with someone from Kiribati!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/KI.400f653a.png"
+      },
+      {
+        "name": "Kosovo",
+        "description": "You played with someone from Kosovo!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/XK.ffdf067a.png"
+      },
+      {
+        "name": "Kyrgyzstan",
+        "description": "You played with someone from Kyrgyzstan!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/KG.36b94dd0.png"
+      },
+      {
+        "name": "Latvia",
+        "description": "You played with someone from Latvia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/LV.ce96893c.png"
+      },
+      {
+        "name": "Lebanon",
+        "description": "You played with someone from Lebanon!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/LB.89b8112b.png"
+      },
+      {
+        "name": "Libya",
+        "description": "You played with someone from Libya!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/LY.9dabce5b.png"
+      },
+      {
+        "name": "Liechtenstein",
+        "description": "You played with someone from Liechtenstein!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/LI.bbd98f4d.png"
+      },
+      {
+        "name": "Lithuania",
+        "description": "You played with someone from Lithuania!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/LT.8878ddb0.png"
+      },
+      {
+        "name": "Luxembourg",
+        "description": "You played with someone from Luxembourg!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/LU.580e2a04.png"
+      },
+      {
+        "name": "Macao SAR China",
+        "description": "You played with someone from Macao SAR China!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/MO.08e29a0b.png"
+      },
+      {
+        "name": "Madagascar",
+        "description": "You played with someone from Madagascar!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/MG.ef5e90c6.png"
+      },
+      {
+        "name": "Malaysia",
+        "description": "You played with someone from Malaysia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/MY.d3efd604.png"
+      },
+      {
+        "name": "Malta",
+        "description": "You played with someone from Malta!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/MT.eef44dc4.png"
+      },
+      {
+        "name": "Marshall Islands",
+        "description": "You played with someone from Marshall Islands!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/MH.b6c8d49d.png"
+      },
+      {
+        "name": "Mexico",
+        "description": "You played with someone from Mexico!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/MX.44ab4766.png"
+      },
+      {
+        "name": "Micronesia",
+        "description": "You played with someone from Micronesia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/FM.9a2e1fe4.png"
+      },
+      {
+        "name": "Moldova",
+        "description": "You played with someone from Moldova!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/MD.dbbc53e3.png"
+      },
+      {
+        "name": "Monaco",
+        "description": "You played with someone from Monaco!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/MC.0038da9d.png"
+      },
+      {
+        "name": "Mongolia",
+        "description": "You played with someone from Mongolia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/MN.ed0ee8c4.png"
+      },
+      {
+        "name": "Montenegro",
+        "description": "You played with someone from Montenegro!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/ME.5d23313e.png"
+      },
+      {
+        "name": "Morocco",
+        "description": "You played with someone from Morocco!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/MA.efa5ab71.png"
+      },
+      {
+        "name": "Myanmar (Burma)",
+        "description": "You played with someone from Myanmar (Burma)!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/MM.1ddf67bd.png"
+      },
+      {
+        "name": "Nauru",
+        "description": "You played with someone from Nauru!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/NR.a8354704.png"
+      },
+      {
+        "name": "Nepal",
+        "description": "You played with someone from Nepal!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/NP.60620b83.png"
+      },
+      {
+        "name": "Netherlands",
+        "description": "You played with someone from Netherlands!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/NL.57addfb6.png"
+      },
+      {
+        "name": "New Zealand",
+        "description": "You played with someone from New Zealand!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/NZ.5d0fcb6a.png"
+      },
+      {
+        "name": "Nigeria",
+        "description": "You played with someone from Nigeria!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/NG.e97ca026.png"
+      },
+      {
+        "name": "North Korea",
+        "description": "You played with someone from North Korea!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/KP.35264605.png"
+      },
+      {
+        "name": "North Macedonia",
+        "description": "You played with someone from North Macedonia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/MK.1898c032.png"
+      },
+      {
+        "name": "Norway",
+        "description": "You played with someone from Norway!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/NO.1b6c5544.png"
+      },
+      {
+        "name": "Oman",
+        "description": "You played with someone from Oman!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/OM.62594c4b.png"
+      },
+      {
+        "name": "Pakistan",
+        "description": "You played with someone from Pakistan!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/PK.ae62aa22.png"
+      },
+      {
+        "name": "Palau",
+        "description": "You played with someone from Palau!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/PW.78db3ac2.png"
+      },
+      {
+        "name": "Palestine",
+        "description": "You played with someone from Palestine!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/PS.65678b6a.png"
+      },
+      {
+        "name": "Papua New Guinea",
+        "description": "You played with someone from Papua New Guinea!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/PG.6dddd819.png"
+      },
+      {
+        "name": "Paraguay",
+        "description": "You played with someone from Paraguay!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/PY.194f5527.png"
+      },
+      {
+        "name": "Peru",
+        "description": "You played with someone from Peru!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/PE.1063d7b9.png"
+      },
+      {
+        "name": "Philippines",
+        "description": "You played with someone from Philippines!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/PH.5072d127.png"
+      },
+      {
+        "name": "Poland",
+        "description": "You played with someone from Poland!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/PL.b6f71322.png"
+      },
+      {
+        "name": "Portugal",
+        "description": "You played with someone from Portugal!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/PT.d020bc78.png"
+      },
+      {
+        "name": "Puerto Rico",
+        "description": "You played with someone from Puerto Rico!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/PR.ea1622dd.png"
+      },
+      {
+        "name": "Qatar",
+        "description": "You played with someone from Qatar!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/QA.9e30c9c8.png"
+      },
+      {
+        "name": "Romania",
+        "description": "You played with someone from Romania!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/RO.a35cd36d.png"
+      },
+      {
+        "name": "Russia",
+        "description": "You played with someone from Russia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/RU.a1a9007a.png"
+      },
+      {
+        "name": "St. Lucia",
+        "description": "You played with someone from St. Lucia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/LC.77609a85.png"
+      },
+      {
+        "name": "St. Pierre & Miquelon",
+        "description": "You played with someone from St. Pierre & Miquelon!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/PM.71af61fb.png"
+      },
+      {
+        "name": "Samoa",
+        "description": "You played with someone from Samoa!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/WS.eacb0674.png"
+      },
+      {
+        "name": "San Marino",
+        "description": "You played with someone from San Marino!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/SM.a4253049.png"
+      },
+      {
+        "name": "São Tomé & Príncipe",
+        "description": "You played with someone from São Tomé & Príncipe!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/ST.80e6cb91.png"
+      },
+      {
+        "name": "Saudi Arabia",
+        "description": "You played with someone from Saudi Arabia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/SA.79ce94a0.png"
+      },
+      {
+        "name": "Scotland",
+        "description": "You played with someone from Scotland!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/XS.9ce8079d.png"
+      },
+      {
+        "name": "Serbia",
+        "description": "You played with someone from Serbia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/RS.d6db336e.png"
+      },
+      {
+        "name": "Seychelles",
+        "description": "You played with someone from Seychelles!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/SC.49d2fe04.png"
+      },
+      {
+        "name": "Singapore",
+        "description": "You played with someone from Singapore!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/SG.a128aeea.png"
+      },
+      {
+        "name": "Slovakia",
+        "description": "You played with someone from Slovakia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/SK.870df276.png"
+      },
+      {
+        "name": "Slovenia",
+        "description": "You played with someone from Slovenia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/SI.a32f0979.png"
+      },
+      {
+        "name": "Somalia",
+        "description": "You played with someone from Somalia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/SO.8f59df88.png"
+      },
+      {
+        "name": "South Africa",
+        "description": "You played with someone from South Africa!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/ZA.ad997d54.png"
+      },
+      {
+        "name": "South Korea",
+        "description": "You played with someone from South Korea!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/KR.1e95f333.png"
+      },
+      {
+        "name": "Spain",
+        "description": "You played with someone from Spain!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/ES.3898b49e.png"
+      },
+      {
+        "name": "Sri Lanka",
+        "description": "You played with someone from Sri Lanka!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/LK.75ff7c14.png"
+      },
+      {
+        "name": "Sudan",
+        "description": "You played with someone from Sudan!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/SD.7989a6a3.png"
+      },
+      {
+        "name": "Suriname",
+        "description": "You played with someone from Suriname!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/SR.6b32275a.png"
+      },
+      {
+        "name": "Eswatini",
+        "description": "You played with someone from Eswatini!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/SZ.2b466d1f.png"
+      },
+      {
+        "name": "Sweden",
+        "description": "You played with someone from Sweden!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/SE.3ec6b254.png"
+      },
+      {
+        "name": "Switzerland",
+        "description": "You played with someone from Switzerland!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/CH.02b9aeb2.png"
+      },
+      {
+        "name": "Syria",
+        "description": "You played with someone from Syria!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/SY.b0873a05.png"
+      },
+      {
+        "name": "Taiwan",
+        "description": "You played with someone from Taiwan!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/TW.04056a6e.png"
+      },
+      {
+        "name": "Tajikistan",
+        "description": "You played with someone from Tajikistan!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/TJ.cc32ab22.png"
+      },
+      {
+        "name": "Thailand",
+        "description": "You played with someone from Thailand!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/TH.b2b734b3.png"
+      },
+      {
+        "name": "Timor-Leste",
+        "description": "You played with someone from Timor-Leste!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/TL.c1e88f93.png"
+      },
+      {
+        "name": "Trinidad & Tobago",
+        "description": "You played with someone from Trinidad & Tobago!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/TT.11445b47.png"
+      },
+      {
+        "name": "Tunisia",
+        "description": "You played with someone from Tunisia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/TN.e7f55e84.png"
+      },
+      {
+        "name": "Turkey",
+        "description": "You played with someone from Turkey!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/TR.bcc27f55.png"
+      },
+      {
+        "name": "Turkmenistan",
+        "description": "You played with someone from Turkmenistan!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/TM.87297ecc.png"
+      },
+      {
+        "name": "Turks & Caicos Islands",
+        "description": "You played with someone from Turks & Caicos Islands!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/TC.c673e87e.png"
+      },
+      {
+        "name": "Tuvalu",
+        "description": "You played with someone from Tuvalu!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/TV.ac1b7122.png"
+      },
+      {
+        "name": "U.S. Virgin Islands",
+        "description": "You played with someone from U.S. Virgin Islands!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/VI.b5012361.png"
+      },
+      {
+        "name": "Uganda",
+        "description": "You played with someone from Uganda!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/UG.e1d601e8.png"
+      },
+      {
+        "name": "Ukraine",
+        "description": "You played with someone from Ukraine!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/UA.f87dea64.png"
+      },
+      {
+        "name": "United Arab Emirates",
+        "description": "You played with someone from United Arab Emirates!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/AE.e4791e67.png"
+      },
+      {
+        "name": "United Kingdom",
+        "description": "You played with someone from United Kingdom!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/GB.6cbcf6e6.png"
+      },
+      {
+        "name": "United States",
+        "description": "You played with someone from United States!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/US.0ab956c5.png"
+      },
+      {
+        "name": "Uruguay",
+        "description": "You played with someone from Uruguay!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/UY.cfc5c6ca.png"
+      },
+      {
+        "name": "Uzbekistan",
+        "description": "You played with someone from Uzbekistan!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/UZ.8dd7a060.png"
+      },
+      {
+        "name": "Vanuatu",
+        "description": "You played with someone from Vanuatu!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/VU.25a640b3.png"
+      },
+      {
+        "name": "Vatican City",
+        "description": "You played with someone from Vatican City!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/VA.459cbdea.png"
+      },
+      {
+        "name": "Venezuela",
+        "description": "You played with someone from Venezuela!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/VE.eb834497.png"
+      },
+      {
+        "name": "Vietnam",
+        "description": "You played with someone from Vietnam!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/VN.ebb56543.png"
+      },
+      {
+        "name": "Wales",
+        "description": "You played with someone from Wales!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/XW.0fab39b9.png"
+      },
+      {
+        "name": "Western Sahara",
+        "description": "You played with someone from Western Sahara!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/EH.d3fafb3d.png"
+      },
+      {
+        "name": "Yemen",
+        "description": "You played with someone from Yemen!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/YE.fafbfeaa.png"
+      },
+      {
+        "name": "Zambia",
+        "description": "You played with someone from Zambia!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/ZM.68ed386c.png"
+      },
+      {
+        "name": "Zimbabwe",
+        "description": "You played with someone from Zimbabwe!",
+        "image": "https://www.chess.com/bundles/web/images/stamps/ZW.0febdfa9.png"
+      }
+    ],
+    "books": [
+      {
+        "name": "Alekhine",
+        "description": "You played a game featuring the Alekhine's Defense",
+        "date": "May 28, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_mC!T.6431c185.png"
+      },
+      {
+        "name": "Benko",
+        "description": "You played a game featuring the Benko Gambit",
+        "date": "Jun 28, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_lB!TkAYIBJXH.8da1b3b3.png"
+      },
+      {
+        "name": "Benoni",
+        "description": "You played a game featuring the Benoni Defense: Modern Variation",
+        "date": "Jul 19, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_lB!TkAYIBJ0S.33489d46.png"
+      },
+      {
+        "name": "Bird",
+        "description": "You played a game featuring the Bird's Opening",
+        "date": "May 28, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_nD.6ffd9a1e.png"
+      },
+      {
+        "name": "Bogo-Indian",
+        "description": "You played a game featuring the Bogo-Indian Defense",
+        "date": "Jun 16, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_lB!TkA0Sgv9z.ec9175d2.png"
+      },
+      {
+        "name": "Caro-Kann",
+        "description": "You played a game featuring the Caro-Kann Defense",
+        "date": "May 28, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_mCYQ.d330342c.png"
+      },
+      {
+        "name": "Catalan",
+        "description": "You played a game featuring the Catalan Opening",
+        "date": "Jun 06, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_lB!TkA0Sow.82c108ac.png"
+      },
+      {
+        "name": "Dutch",
+        "description": "You played a game featuring the Dutch Defense",
+        "date": "Jun 24, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_lB1L.cc63cb5f.png"
+      },
+      {
+        "name": "English",
+        "description": "You played a game featuring the English Opening",
+        "date": "Sep 24, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_kA.fd6ce04c.png"
+      },
+      {
+        "name": "French",
+        "description": "You played a game featuring the French Defense",
+        "date": "May 26, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_mC0S.b9ed7b7e.png"
+      },
+      {
+        "name": "Grob",
+        "description": "You played a game featuring the Grob Opening",
+        "date": "Jul 12, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_oE.4878a448.png"
+      },
+      {
+        "name": "Grünfeld",
+        "description": "You played a game featuring the Grunfeld Defense",
+        "date": "Sep 24, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_lB!TkA2UbsZJ.43434ace.png"
+      },
+      {
+        "name": "Italian",
+        "description": "You played a game featuring the Italian Game",
+        "date": "May 28, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_mC0Kgv5QfA.60fa8757.png"
+      },
+      {
+        "name": "KIA",
+        "description": "You played a game featuring the King's Indian Attack",
+        "date": "May 31, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_gvZJow.93271b8f.png"
+      },
+      {
+        "name": "KID",
+        "description": "You played a game featuring the King's Indian Defense",
+        "date": "Jun 24, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_lB!TkA2U.0b0a2faf.png"
+      },
+      {
+        "name": "King's Fianchetto",
+        "description": "You played a game featuring the King's Fianchetto Opening",
+        "date": "Jun 28, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_ow.111d6362.png"
+      },
+      {
+        "name": "King's Gambit",
+        "description": "You played a game featuring the King's Gambit",
+        "date": "Jul 10, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_mC0KnD.8595f0e1.png"
+      },
+      {
+        "name": "London",
+        "description": "You played a game featuring the London System",
+        "date": "Oct 17, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_lBZJgv!TcD.f8b1c0d9.png"
+      },
+      {
+        "name": "Nimzo-Indian",
+        "description": "You played a game featuring the Nimzo-Indian Defense",
+        "date": "Jun 01, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_lB!TkA0Sbs9z.58534853.png"
+      },
+      {
+        "name": "Nimzowitsch-Larsen",
+        "description": "You played a game featuring the Nimzowitsch-Larsen Attack",
+        "date": "May 28, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_jr.ee7cef74.png"
+      },
+      {
+        "name": "Pirc",
+        "description": "You played a game featuring the Pirc Defense",
+        "date": "Jun 15, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_mCZR.439d74d6.png"
+      },
+      {
+        "name": "Polish",
+        "description": "You played a game featuring the Polish Opening",
+        "date": "Oct 31, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_jz.69724377.png"
+      },
+      {
+        "name": "Queen's Gambit",
+        "description": "You played a game featuring the Queen's Gambit",
+        "date": "Jun 13, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_lBZJkA.5639ed5a.png"
+      },
+      {
+        "name": "Queen's Indian",
+        "description": "You played a game featuring the Queen's Indian Defense",
+        "date": "Jun 23, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_lB!TkA0SgvXP.2a91f50f.png"
+      },
+      {
+        "name": "Réti",
+        "description": "You played a game featuring the Réti Opening",
+        "date": "May 25, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_gv.86860a9b.png"
+      },
+      {
+        "name": "Scandinavian",
+        "description": "You played a game featuring the Scandinavian Defense",
+        "date": "Jun 04, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_mCZJ.2e1da92b.png"
+      },
+      {
+        "name": "Scotch",
+        "description": "You played a game featuring the Scotch Game",
+        "date": "Jun 08, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_mC0Kgv5QlB.6d3b1a01.png"
+      },
+      {
+        "name": "Sicilian",
+        "description": "You played a game featuring the Sicilian Defense",
+        "date": "May 26, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_mCYI.029df52f.png"
+      },
+      {
+        "name": "Sicilian Alapin",
+        "description": "You played a game featuring the Sicilian Defense: Alapin Variation",
+        "date": "Jun 14, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_mCYIks.f8c794ce.png"
+      },
+      {
+        "name": "Sicilian - Closed",
+        "description": "You played a game featuring the Sicilian Defense: Closed",
+        "date": "May 28, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_mCYIbs.0c085a61.png"
+      },
+      {
+        "name": "Slav",
+        "description": "You played a game featuring the Slav Defense",
+        "date": "Jul 03, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_lBZJkAYQ.b96548c6.png"
+      },
+      {
+        "name": "Spanish",
+        "description": "You played a game featuring the Ruy Lopez Opening",
+        "date": "May 28, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_mC0Kgv5QfH.663653c3.png"
+      },
+      {
+        "name": "Trompowsky",
+        "description": "You played a game featuring the Trompowsky Attack",
+        "date": "Jul 03, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/book_lB!TcM.5c71d1a9.png"
+      }
+    ],
+    "achievements": [
+      {
+        "name": "Self-Portrait",
+        "description": "Nice avatar!",
+        "date": "Jun 30, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/profile_self_portrait.7a3b0c0f.png"
+      },
+      {
+        "name": "Blitz 10000",
+        "description": "You played 10000 Blitz games!",
+        "date": "Dec 22, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_live_blitz_10000.735fc514.png"
+      },
+      {
+        "name": "Rapid 100",
+        "description": "You played 100 Rapid games!",
+        "date": "Mar 27, 2021",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_live_rapid_100.6bc96efd.png"
+      },
+      {
+        "name": "Bullet 10000",
+        "description": "You played 10000 Bullet games!",
+        "date": "Mar 27, 2021",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_live_bullet_10000.4b4b8471.png"
+      },
+      {
+        "name": "Daily 100",
+        "description": "You played 100 Daily games!",
+        "date": "Nov 06, 2021",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_daily_games_100.87fc7687.png"
+      },
+      {
+        "name": "1st Word",
+        "description": "You made a comment or post!",
+        "date": "Apr 29, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/activity_first_word.7d98d0a2.png"
+      },
+      {
+        "name": "Puzzle Newbie",
+        "description": "You solved a Puzzle!",
+        "date": "Feb 12, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/tactics_newbie.85063a2f.png"
+      },
+      {
+        "name": "Puzzle Beginner",
+        "description": "You correctly solved 10 Puzzles!",
+        "date": "Feb 12, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/tactics_beginner.fe251c41.png"
+      },
+      {
+        "name": "Puzzle Ace",
+        "description": "You correctly solved 100 Puzzles!",
+        "date": "Feb 12, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/tactics_ace.6946e2c4.png"
+      },
+      {
+        "name": "Puzzle Veteran",
+        "description": "You correctly solved 1000 Puzzles!",
+        "date": "Oct 03, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/tactics_veteran.6b0be5fb.png"
+      },
+      {
+        "name": "Puzzle Machine",
+        "description": "Wow! 100 Puzzles in one day!?",
+        "date": "Oct 03, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/tactics_machine.72e1dc5f.png"
+      },
+      {
+        "name": "Rush 1000",
+        "description": "You played Puzzle Rush 1000 times!",
+        "date": "May 25, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_puzzle_rush_played_1000.3be307ec.png"
+      },
+      {
+        "name": "Puzzle 100",
+        "description": "You have done 100 Puzzles!",
+        "date": "Jul 06, 2022",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_puzzle_played_100.8e4ecb09.png"
+      },
+      {
+        "name": "Puzzle Battle",
+        "description": "You played Puzzle Battle 100 times!",
+        "date": "Dec 20, 2021",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_puzzle_battle_played_100.041409d4.png"
+      },
+      {
+        "name": "Lessons",
+        "description": "You took 10 Lessons!",
+        "date": "Feb 21, 2021",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_lessons_count_10.616bce41.png"
+      },
+      {
+        "name": "3Check 100",
+        "description": "You played 100 3Check games!",
+        "date": "May 03, 2023",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_3check_count_100.fea960a2.png"
+      },
+      {
+        "name": "Speed Solver 60+",
+        "description": "Is this even possible? 60+ in Puzzle Rush... Astounding!",
+        "date": "Dec 27, 2022",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_puzzle_rush_speed_solver_60.5a888842.png"
+      },
+      {
+        "name": "Rush Streak 30",
+        "description": "Error-free! 30 in a row in Puzzle Rush. Excellent!",
+        "date": "May 25, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_puzzle_rush_streaks_30.222a6a93.png"
+      },
+      {
+        "name": "Train Your Brain",
+        "description": "You attempted 1 Drill!",
+        "date": "Dec 24, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/drills_1st_attempt.1d0f19dd.png"
+      },
+      {
+        "name": "Brains of Steel",
+        "description": "You attempted 10 Drills!",
+        "date": "Dec 24, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/drills_brains_of_steel.cc104dd6.png"
+      },
+      {
+        "name": "Man vs Machine",
+        "description": "You battled a bot in Live Chess!",
+        "date": "Jun 17, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/live_man_vs_machine.02e7645c.png"
+      },
+      {
+        "name": "Surprise!",
+        "description": "You played your 1st game of Crazyhouse!",
+        "date": "Mar 14, 2019",
+        "image": "https://www.chess.com/bundles/web/images/achievements/live_crazyhouse_surprise.f98ebab6.png"
+      },
+      {
+        "name": "Mad Scientist",
+        "description": "You played 10 games of Crazyhouse!",
+        "date": "Mar 14, 2019",
+        "image": "https://www.chess.com/bundles/web/images/achievements/live_crazyhouse_mad_scientist.03ba8849.png"
+      },
+      {
+        "name": "Easy as 1-2-3",
+        "description": "You played your 1st game of 3 Check!",
+        "date": "Mar 24, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/live_3check_easy.e5d660e1.png"
+      },
+      {
+        "name": "Three Strikes",
+        "description": "You played 10 games of 3 Check!",
+        "date": "Mar 24, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/live_3check_3strikes.a962486f.png"
+      },
+      {
+        "name": "Higher Ground",
+        "description": "You played your 1st game of King of the Hill!",
+        "date": "Dec 01, 2022",
+        "image": "https://www.chess.com/bundles/web/images/achievements/live_king_of_the_hill_higher_ground.77d94e3b.png"
+      },
+      {
+        "name": "Mountain Climber",
+        "description": "You played 10 games of King of the Hill!",
+        "date": "Mar 30, 2023",
+        "image": "https://www.chess.com/bundles/web/images/achievements/live_king_of_hill_mountain_climber.4d3e2706.png"
+      },
+      {
+        "name": "Worker Bee",
+        "description": "You played your 1st game of Bughouse!",
+        "date": "Mar 02, 2019",
+        "image": "https://www.chess.com/bundles/web/images/achievements/live_bughouse_worker_bee.eadbb8bd.png"
+      },
+      {
+        "name": "Hive Mind",
+        "description": "You played 10 games of Bughouse!",
+        "date": "Mar 02, 2019",
+        "image": "https://www.chess.com/bundles/web/images/achievements/live_bughouse_hive_mind.d096560b.png"
+      },
+      {
+        "name": "Dangerous Intersection",
+        "description": "You played your 1st game of Four Player chess!",
+        "date": "Mar 29, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/four_player_chess_dangerous_intersection.b6471884.png"
+      },
+      {
+        "name": "Battle Royale",
+        "description": "Wow! You played 10 games of Four Player chess!",
+        "date": "Jun 12, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/four_player_chess_battle_royale.f1936899.png"
+      },
+      {
+        "name": "Second Opinion",
+        "description": "You had a game analyzed!",
+        "date": "Jul 26, 2019",
+        "image": "https://www.chess.com/bundles/web/images/achievements/game_analysis_second_opinion.2d9415b2.png"
+      },
+      {
+        "name": "Hindsight 20/20",
+        "description": "You had 10 games analyzed!",
+        "date": "Jan 27, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/game_analysis_hindsight.51dd9696.png"
+      },
+      {
+        "name": "Contender",
+        "description": "You joined a tournament!",
+        "date": "Dec 04, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/tournaments_contender.4ee6df4a.png"
+      },
+      {
+        "name": "Competitor",
+        "description": "You joined 10 tournaments!",
+        "date": "Jan 07, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/tournaments_competitor.c8c30f9a.png"
+      },
+      {
+        "name": "Challenger",
+        "description": "Wow! You joined 100 tournaments!",
+        "date": "Jan 18, 2022",
+        "image": "https://www.chess.com/bundles/web/images/achievements/tournaments_challenger.8231f6f5.png"
+      },
+      {
+        "name": "Killer Pawn",
+        "description": "You delivered checkmate with a Pawn!",
+        "date": "Mar 05, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/fun_killer_pawn.e1487e05.png"
+      },
+      {
+        "name": "Killer Knight",
+        "description": "You delivered checkmate with a Knight!",
+        "date": "Feb 21, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/fun_killer_knight.f1ec20d1.png"
+      },
+      {
+        "name": "Killer Bishop",
+        "description": "You delivered checkmate with a Bishop!",
+        "date": "Jun 17, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/fun_killer_bishop.35e983ca.png"
+      },
+      {
+        "name": "Killer Rook",
+        "description": "You delivered checkmate with a Rook!",
+        "date": "Feb 17, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/fun_killer_rook.0653bb0b.png"
+      },
+      {
+        "name": "Killer Queen",
+        "description": "You delivered checkmate with a Queen!",
+        "date": "Feb 14, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/fun_killer_queen.35a8681a.png"
+      },
+      {
+        "name": "Killer King",
+        "description": "You delivered checkmate with a King!",
+        "date": "Jul 11, 2022",
+        "image": "https://www.chess.com/bundles/web/images/achievements/fun_killer_king.c6cc2925.png"
+      },
+      {
+        "name": "Random Thoughts",
+        "description": "Your 1st game of Chess960!",
+        "date": "Sep 15, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/daily_game_960_1.075a5640.png"
+      },
+      {
+        "name": "Mix Master",
+        "description": "You played 10 Chess960 games",
+        "date": "Sep 15, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/daily_game_960_10.75c1badb.png"
+      },
+      {
+        "name": "Juggler",
+        "description": "You can play 20 games at once!?",
+        "date": "Nov 02, 2021",
+        "image": "https://www.chess.com/bundles/web/images/achievements/daily_game_juggler.d481327f.png"
+      },
+      {
+        "name": "World Traveller",
+        "description": "You played people from at least 10 different countries!",
+        "date": "Feb 08, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/daily_world_traveler.5c6a7b26.png"
+      },
+      {
+        "name": "Chess Marathon",
+        "description": "You played a game with more than 100 moves!",
+        "date": "Feb 20, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/fun_chess_marathon.f89f743d.png"
+      },
+      {
+        "name": "Quick Knockout",
+        "description": "You checkmated in less than 10 moves!",
+        "date": "Nov 16, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/fun_quick_knockout.f9aedda2.png"
+      },
+      {
+        "name": "Nick of Time",
+        "description": "You won with less than a second left!",
+        "date": "Apr 01, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/live_nick_of_time.c5590132.png"
+      },
+      {
+        "name": "Full House",
+        "description": "You won without losing any pieces!",
+        "date": "Feb 21, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/fun_full_house.78185012.png"
+      },
+      {
+        "name": "Buddy System",
+        "description": "You have 10 friends!",
+        "date": "Jun 15, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/friends_buddy_system.dcbd4927.png"
+      },
+      {
+        "name": "Social Butterfly",
+        "description": "Wow - you have 100 friends!",
+        "date": "Jun 15, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/friends_social_butterfly.6aaae53e.png"
+      },
+      {
+        "name": "Pen Pal",
+        "description": "You have friends in at least 10 countries!",
+        "date": "Jun 15, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/friends_pen_pal.17fc707c.png"
+      },
+      {
+        "name": "Club Member",
+        "description": "You joined a club!",
+        "date": "Aug 02, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/clubs_member.8f6802ab.png"
+      },
+      {
+        "name": "Pack Leader",
+        "description": "Your club has 10 members!",
+        "date": "Apr 17, 2021",
+        "image": "https://www.chess.com/bundles/web/images/achievements/clubs_pack_leader.4093b025.png"
+      },
+      {
+        "name": "Front Page",
+        "description": "You read an article!",
+        "date": "Feb 20, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/articles_front_page.0a5cbe1f.png"
+      },
+      {
+        "name": "Reading Glasses",
+        "description": "You read 10 articles!",
+        "date": "Apr 06, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/articles_reading_glasses.c65318ae.png"
+      },
+      {
+        "name": "Library Card",
+        "description": "Wow - you read 100 articles!",
+        "date": "Sep 01, 2021",
+        "image": "https://www.chess.com/bundles/web/images/achievements/articles_library_card.8b4d1c5b.png"
+      },
+      {
+        "name": "1st Lesson",
+        "description": "You completed your first Lesson!",
+        "date": "May 08, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/lessons_first_lesson_complete.7d139874.png"
+      },
+      {
+        "name": "Say Hello",
+        "description": "You sent your 1st message!",
+        "date": "Oct 24, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/messages_say_hello.464a6480.png"
+      },
+      {
+        "name": "Soapbox",
+        "description": "You're a blogger now!",
+        "date": "Jul 30, 2021",
+        "image": "https://www.chess.com/bundles/web/images/achievements/blogs_soapbox.d3885670.png"
+      },
+      {
+        "name": "Printing Press",
+        "description": "10 blog posts - keep it up!",
+        "date": "Oct 30, 2021",
+        "image": "https://www.chess.com/bundles/web/images/achievements/blogs_printing_press.eb7b7b11.png"
+      },
+      {
+        "name": "Good Read",
+        "description": "100 people read your blog!",
+        "date": "Feb 07, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/blogs_good_read.88f13e82.png"
+      },
+      {
+        "name": "Devoted",
+        "description": "You logged in 7 days in a row!",
+        "date": "Feb 08, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/misc_devoted.9d1d4c71.png"
+      },
+      {
+        "name": "Fanatic",
+        "description": "You logged in 30 days in a row!",
+        "date": "Oct 31, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/misc_fanatic.78f789e3.png"
+      },
+      {
+        "name": "Survey Says",
+        "description": "You voted in a Survey!",
+        "date": "Apr 01, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/fun_survey_says.33c5eb69.png"
+      },
+      {
+        "name": "TV Guide",
+        "description": "You watched a ChessTV show!",
+        "date": "Feb 02, 2019",
+        "image": "https://www.chess.com/bundles/web/images/achievements/tv_tv_guide.785c6858.png"
+      },
+      {
+        "name": "Couch Potato",
+        "description": "You watched eight hours of ChessTV!",
+        "date": "Nov 01, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/tv_couch_potato.7ed86fd2.png"
+      },
+      {
+        "name": "TV Junkie",
+        "description": "You watched 24 hours of ChessTV!",
+        "date": "Jul 06, 2021",
+        "image": "https://www.chess.com/bundles/web/images/achievements/tv_junkie.29301511.png"
+      },
+      {
+        "name": "Press Play",
+        "description": "You watched your 1st Video Lesson",
+        "date": "Mar 13, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/videos_press_play.5a656f7c.png"
+      },
+      {
+        "name": "Popcorn Lover",
+        "description": "You watched 10 Videos!",
+        "date": "May 08, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/videos_popcorn_lover.68b8092b.png"
+      },
+      {
+        "name": "Gift Wrap",
+        "description": "Nice! You gave someone a membership!",
+        "date": "Jan 04, 2021",
+        "image": "https://www.chess.com/bundles/web/images/achievements/membership_gift_giver.620014c2.png"
+      },
+      {
+        "name": "VIP Referrer",
+        "description": "A friend you referred just upgraded... Thanks!",
+        "date": "Jan 13, 2019",
+        "image": "https://www.chess.com/bundles/web/images/achievements/membership_vip_referrer.0b19cf77.png"
+      },
+      {
+        "name": "Go Mobile (Android)",
+        "description": "You play chess with an Android!",
+        "date": "Feb 06, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/mobile_android.b24d1523.png"
+      },
+      {
+        "name": "Tweet!",
+        "description": "You shared a game on Twitter!",
+        "date": "Mar 06, 2019",
+        "image": "https://www.chess.com/bundles/web/images/achievements/social_tweet.9fa63ddd.png"
+      },
+      {
+        "name": "3D Glasses",
+        "description": "How do you like the 3D pieces?",
+        "date": "Jul 11, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/fun_3d_glasses.ac257291.png"
+      },
+      {
+        "name": "Finger Paint",
+        "description": "You customized your Theme!",
+        "date": "May 07, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/profile_finger_paint.07b740d7.png"
+      },
+      {
+        "name": "Prize Winner",
+        "description": "You received 10 Game Trophies!",
+        "date": "Feb 06, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/trophies_prize_winner.49e18b84.png"
+      },
+      {
+        "name": "Trophy Hunter",
+        "description": "You received 10 Fun Trophies!",
+        "date": "Feb 06, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/trophies_trophy_hunter.3e60ce14.png"
+      },
+      {
+        "name": "Award Magnet",
+        "description": "You received 100 Game & Fun Trophies! Impressive.",
+        "date": "Feb 06, 2018",
+        "image": "https://www.chess.com/bundles/web/images/achievements/trophies_award_magnet.b6ce96d9.png"
+      },
+      {
+        "name": "Eye Doctor",
+        "description": "You tested your chess vision!",
+        "date": "May 08, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/vision_done.1abe2ba1.png"
+      },
+      {
+        "name": "Puzzles 3400",
+        "description": "You got a rating of 3400 in Puzzles!",
+        "date": "Nov 18, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_puzzles_rating_3400.ac324d12.png"
+      },
+      {
+        "name": "Bullet 3300",
+        "description": "You got a rating of 3300 in Bullet!",
+        "date": "Sep 10, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_bullet_rating_3300.c495258a.png"
+      },
+      {
+        "name": "Blitz 3200",
+        "description": "You got a rating of 3200 in Blitz!",
+        "date": "May 25, 2020",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_blitz_rating_3200.b6300fd9.png"
+      },
+      {
+        "name": "Rapid 2900",
+        "description": "You got a rating of 2900 in Rapid!",
+        "date": "Feb 26, 2022",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_rapid_rating_2900.5979d5b8.png"
+      },
+      {
+        "name": "Daily rating 2200",
+        "description": "You got a rating of 2200 in Daily!",
+        "date": "Nov 06, 2021",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_daily_rating_2200.23bce42e.png"
+      },
+      {
+        "name": "3Check 2500",
+        "description": "You got a rating of 2500 in 3Check!",
+        "date": "Sep 09, 2022",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_3check_rating_2500.ead45963.png"
+      },
+      {
+        "name": "King of the Hill 2800",
+        "description": "You got a rating of 2800 in King of the Hill!",
+        "date": "Dec 01, 2022",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_kingofthehill_rating_2800.d2246316.png"
+      },
+      {
+        "name": "Live 960 3100",
+        "description": "You got a rating of 3100 in Live 960!",
+        "date": "Mar 12, 2021",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_livechess960_rating_3100.d5b7ef26.png"
+      },
+      {
+        "name": "Live 960 100",
+        "description": "You played 100 Live 960 games!",
+        "date": "Feb 05, 2021",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_livechess960_count_100.59a077a1.png"
+      },
+      {
+        "name": "King of the Hill 25",
+        "description": "You played 25 King of the Hill games!",
+        "date": "Mar 31, 2023",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_kingofthehill_count_25.80710ee9.png"
+      },
+      {
+        "name": "Happy Anniversary",
+        "description": "You have been an active member for 9 years!",
+        "date": "Jan 08, 2023",
+        "image": "https://www.chess.com/bundles/web/images/achievements/progressive_happy_anniversary_9.bb6326c7.png"
+      },
+      {
+        "name": "Wood League",
+        "description": "Welcome to the Players League!",
+        "date": "Aug 22, 2022",
+        "image": "https://www.chess.com/bundles/web/images/achievements/league_wood.c6e1abae.png"
+      },
+      {
+        "name": "Stone League",
+        "description": "You advanced to Stone League!",
+        "date": "Aug 22, 2022",
+        "image": "https://www.chess.com/bundles/web/images/achievements/league_stone.5dd88c9a.png"
+      },
+      {
+        "name": "Bronze League",
+        "description": "You advanced to Bronze League!",
+        "date": "Aug 22, 2022",
+        "image": "https://www.chess.com/bundles/web/images/achievements/league_bronze.c41c4dff.png"
+      },
+      {
+        "name": "Silver League",
+        "description": "You advanced to Silver League!",
+        "date": "Aug 22, 2022",
+        "image": "https://www.chess.com/bundles/web/images/achievements/league_silver.a706c713.png"
+      },
+      {
+        "name": "Crystal League",
+        "description": "You advanced to Crystal League!",
+        "date": "Aug 22, 2022",
+        "image": "https://www.chess.com/bundles/web/images/achievements/league_crystal.388b8821.png"
+      },
+      {
+        "name": "Elite League",
+        "description": "You advanced to Elite League!",
+        "date": "Aug 22, 2022",
+        "image": "https://www.chess.com/bundles/web/images/achievements/league_elite.44c7f41d.png"
+      },
+      {
+        "name": "Champion League",
+        "description": "You advanced to Champion League!",
+        "date": "Oct 03, 2022",
+        "image": "https://www.chess.com/bundles/web/images/achievements/league_champion.0017401b.png"
+      },
+      {
+        "name": "Legend League",
+        "description": "You advanced to Legend League!",
+        "date": "Jan 29, 2023",
+        "image": "https://www.chess.com/bundles/web/images/achievements/league_legend.ecd19b56.png"
+      }
+    ]
+  }

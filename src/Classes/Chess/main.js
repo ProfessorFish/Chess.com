@@ -26,12 +26,21 @@ module.exports = class Standard {
     }
 
     //All used in initialisation (Don't need to call them on their own ever)
+    async GetClientID(username){
+        return await require("./Functions/GetClientID.js").apply(this, [username]);
+    }
+
     async GetToken() {
         return await require("./Functions/GetToken.js").apply(this, []);
     }
 
     async GetSessionID() {
         return await require("./Functions/GetSessionID.js").apply(this, []);
+    }
+
+    
+    async Achievements(username) {
+        return await require("./Functions/Achievements.js").apply(this, [username]);
     }
 
     DecodeMoves(moveString) {
@@ -42,16 +51,13 @@ module.exports = class Standard {
         let funct = require("./Functions/Game.js")
         switch (type) {
             case 'daily':
-                return await funct.apply(this, [id, false, true, false]);
-                break;
-            case 'live':
-                return await funct.apply(this, [id, true, false, false]);
+                return await funct.apply(this, [id, true, false]);
                 break;
             case 'computer':
-                return await funct.apply(this, [id, false, false, true]);
+                return await funct.apply(this, [id, false, true]);
                 break;
             default:
-                return await funct.apply(this, [id, false, false, false]);
+                return await funct.apply(this, [id, false, false]);
                 break;
         }
     }
@@ -70,5 +76,9 @@ module.exports = class Standard {
 
     async User(username) {
         return await require("./Functions/User.js").apply(this, [username]);
+    }
+
+    async WatchGame(id) {
+        return await require("./Functions/WatchGame.js").apply(this, [id]);
     }
 }
