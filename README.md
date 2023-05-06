@@ -91,6 +91,8 @@ A nodeJS package that utilises the internal API for chess.com, allowing for verb
 
 - [ ] Fix unable to view some live games issue
 
+- [ ] Speed up achievements for players with large numbers of them
+
   
 
   
