@@ -22,8 +22,8 @@
   "dependencies": {
     "@types/node": "^18.0.6",
     "abort-controller": "^3.0.0",
+    "domany": "^1.0.3",
     "dotenv": "^16.0.3",
-    "lets-fetch": "^2.2.1",
     "node-fetch": "^2.6.9",
     "puppeteer": "^19.7.4",
     "puppeteer-extra": "^3.3.6",
