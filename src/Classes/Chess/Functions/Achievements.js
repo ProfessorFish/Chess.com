@@ -1,6 +1,6 @@
 const scrapefrom = require("scrapefrom");
 const fetch = require("node-fetch");
-const domany = require("domany");
+const domany = require("C:\\Users\\james\\Documents\\Projects\\DoMany\\index.js");
 
 module.exports = async function Achievements(username) {
     let res = await scrapefrom([{
@@ -108,14 +108,14 @@ module.exports = async function Achievements(username) {
         out[url.url.split("/").at(-1)] = mapped;
     }
 
-    
+    console.log(toFetch)
     let result = await domany(toFetch, async k => {
         return {
             key: k.key,
             url: k.url,
             json: await (await fetch(k.url)).json()
         }
-    }, { maxRetries: Infinity, amountPerUnit: toFetch.length / 50 });
+    }, { maxRetries: Infinity, amountPerUnit: toFetch.length / 15 });
 
     for (let res of result) {
         let key = res.key;
