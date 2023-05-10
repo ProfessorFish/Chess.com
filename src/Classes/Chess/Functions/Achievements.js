@@ -107,8 +107,7 @@ module.exports = async function Achievements(username) {
 
         out[url.url.split("/").at(-1)] = mapped;
     }
-
-    console.log(toFetch)
+    
     let result = await domany(toFetch, async k => {
         return {
             key: k.key,
