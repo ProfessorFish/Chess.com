@@ -6,7 +6,7 @@ module.exports = async function GetGame(id, daily, computer) {
   let serverNumber = 0;
 
   try {
-    if (!daily && !computer) {
+    /*if (!daily && !computer) {
       let res = {};
       let game = {};
 
@@ -17,7 +17,7 @@ module.exports = async function GetGame(id, daily, computer) {
 
       if (res.ok) return await res.json();
       else throw Error('Failed to access live game');
-    } else {
+    } else {*/
       let url = "https://www.chess.com/"
       if (computer) {
         url += "computer/callback/game/" + id
@@ -33,7 +33,7 @@ module.exports = async function GetGame(id, daily, computer) {
       let json = await res.json();
 
       return json;
-    }
+    //}
   } catch (err) {
     throw Error(err);
   }
