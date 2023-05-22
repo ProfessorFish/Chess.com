@@ -1,12 +1,12 @@
 const fetch = require("node-fetch");
 
 
-module.exports = async function GetGame(id, live, daily, computer) {
+module.exports = async function GetGame(id, daily, computer) {
 
   let serverNumber = 0;
 
   try {
-    if (live) {
+    if (!daily && !computer) {
       let res = {};
       let game = {};
 
@@ -15,19 +15,19 @@ module.exports = async function GetGame(id, live, daily, computer) {
         serverNumber++;
       }
 
-      if (res.ok)return await res.json();
+      if (res.ok) return await res.json();
       else throw Error('Failed to access live game');
     } else {
       let url = "https://www.chess.com/"
-      if(computer){
+      if (computer) {
         url += "computer/callback/game/" + id
-      } else{
+      } else {
         url += "callback/"
-        if(daily) url += "daily/"
+        if (daily) url += "daily/"
         else url += "live/"
         url += "game/" + id
       }
-      
+
       let res = await fetch(url);
 
       let json = await res.json();
